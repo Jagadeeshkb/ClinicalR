@@ -1,0 +1,50 @@
+Cmax (Maximum Concentration):
+The highest concentration of the drug in the blood plasma after administration.
+Indicates the peak level of drug exposure.
+
+Tmax (Time to Maximum Concentration):
+The time it takes to reach Cmax.
+Provides information about the rate of absorption.
+
+AUC (Area Under the Curve):
+The integral of the concentration-time curve (usually from time zero to the last measurable concentration or infinity).
+Represents the total drug exposure over time.
+Commonly used methods to calculate AUC include the trapezoidal rule.
+
+t1/2 (Half-life):
+The time required for the plasma concentration of a drug to reduce by half.
+Indicates how quickly a drug is eliminated from the body.
+
+CL (Clearance):
+The volume of plasma from which the drug is completely removed per unit time.
+Reflects the efficiency of drug elimination processes.
+
+Vd (Volume of Distribution:
+A hypothetical volume that represents the distribution of the drug throughout the body.
+Provides insight into how extensively a drug disperses into body tissues.
+
+MRT (Mean Residence Time):
+The average time a drug molecule stays in the body.
+Calculated as the area under the first moment curve (AUMC) divided by AUC.
+
+
+Bioavailability (F):
+The fraction of an administered dose that reaches systemic circulation in an active form.
+Essential for comparing different drug formulations or routes of administration.
+
+
+Cmin (Minimum Concentration):
+The lowest concentration of the drug in the blood plasma during a dosing interval at steady state.
+Important for maintaining therapeutic levels without dropping below the effective concentration.
+
+Ke (Elimination Rate Constant):
+The rate at which a drug is removed from the body.
+Related to half-life and clearance.
+
+Lag Time (Tlag):
+The time delay between drug administration and the first measurable concentration in the blood plasma.
+Indicates the onset of absorption.
+
+Fluctuation:
+The difference between Cmax and Cmin within one dosing interval.
+Important for understanding the variability in drug concentrations.
