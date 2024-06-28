@@ -1,0 +1,33 @@
+1) Survival Function (S(t))
+
+2) Hazard Function (λ(t))
+
+3) Cumulative Hazard Function (Λ(t))
+
+4) Probability Density Function (PDF) (f(t))
+
+5) Cumulative Distribution Function (CDF) (F(t))
+
+6) Median Survival Time
+
+7) Mean Survival Time
+
+8) Restricted Mean Survival Time (RMST)
+
+9) Survival Rate
+
+10) Kaplan-Meier Estimate
+
+11) Log-Rank Test
+
+12) Cox Proportional Hazards Model
+
+13) Concordance Index (C-index)
+
+14) Aalen’s Additive Model
+
+15) Competing Risks
+
+16) Cumulative Incidence Function (CIF)
+
+17) Time-Dependent Covariates
