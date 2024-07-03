@@ -1,0 +1,27 @@
+1. Participant Flow Diagram
+  Depicts the progression of participants through each stage of the study (enrollment, intervention allocation, follow-up, and analysis).
+2. Baseline Characteristics Plot
+  Compares demographic and baseline characteristics of participants between treatment groups.
+3. Efficacy Results Plots
+  Kaplan-Meier Survival Curves: Illustrate time-to-event data, such as overall survival or progression-free survival.
+  Forest Plots: Show the effect size and confidence intervals for primary and secondary endpoints, often used in meta-analyses.
+4. Adverse Event Plots
+  Bar Charts: Display the frequency and severity of adverse events in each treatment group.
+  Waterfall Plots: Show individual patient responses, such as changes in tumor size.
+5. Laboratory Results Plots
+  Box Plots: Represent the distribution of lab results (e.g., blood tests) between treatment groups.
+  Line Plots: Track changes in lab results over time for each treatment group.
+6. Pharmacokinetics (PK) Plots
+  Concentration-Time Curves: Show the concentration of the drug in the blood over time.
+  Dose-Response Curves: Illustrate the relationship between the drug dose and its pharmacological effect.
+7. Vital Signs and Other Continuous Measures
+  Line Plots: Track changes in vital signs (e.g., blood pressure, heart rate) over time.
+  Scatter Plots: Explore relationships between different continuous variables.
+8. Quality of Life and Patient-Reported Outcomes
+  Spider/Radar Charts: Visualize multiple dimensions of patient-reported outcomes.
+  Line Plots: Track changes in quality of life scores over time.
+9. Subgroup Analysis Plots
+  Forest Plots: Display the treatment effect within predefined subgroups (e.g., age, gender, disease severity).
+10. Compliance and Exposure Plots
+  Histograms or Bar Charts: Show the distribution of drug exposure (e.g., dosage, duration) among participants.
+  Line Plots: Track individual compliance over time.
