@@ -1,0 +1,1440 @@
+﻿    • alsa-lib:
+        ◦ Provides the user-space library for the Advanced Linux Sound Architecture (ALSA). It allows applications to interface with the ALSA sound card drivers, providing audio functionality.
+    • alsa-topology:
+        ◦ Contains the ALSA topology data for various audio hardware. This data is used by ALSA to configure and manage audio hardware components and their features.
+    • ao:
+        ◦ The Audio Output library. It's a cross-platform audio output library that allows applications to output audio to various audio drivers. It is often used by multimedia applications and players to handle sound output.
+    • apr-util-1:
+        ◦ Part of the Apache Portable Runtime (APR) project, this library provides utility functions for APR, including functions for handling databases, memory, and other common tasks required by applications.
+    • audit:
+        ◦ Provides the audit framework for Linux, allowing for detailed tracking and logging of system activities. It is used for security auditing, compliance, and forensic analysis.
+    • avahi:
+        ◦ Implements the mDNS/DNS-SD (Bonjour) protocol for service discovery on a local network. It's used to enable devices and services to find each other without needing a central DNS server.
+    • bfd-plugins:
+        ◦ Stands for Binary File Descriptor (BFD) library plugins. BFD provides a common interface for various object file formats. The plugins add support for additional formats or functionalities.
+    • blas:
+        ◦ Stands for Basic Linear Algebra Subprograms. It provides routines for performing basic vector and matrix operations, such as dot products and matrix multiplication, used in various scientific and engineering applications.
+    • bluetooth:
+        ◦ Provides support for Bluetooth protocol and services in Linux. It includes tools and libraries for managing Bluetooth devices, connections, and protocols.
+    • brasero3-1:
+        ◦ Brasero is a disc burning application that allows you to create and burn CDs and DVDs. The "3-1" suggests a specific version or build of this software.
+    • caca:
+        ◦ Stands for Colour AsCii Art library. It's used for creating ASCII art and text-based graphical interfaces. It's commonly used in terminal-based applications for rendering text-based graphics.
+    • cifs-utils:
+        ◦ Provides utilities for mounting and managing CIFS (Common Internet File System) and SMB (Server Message Block) network file systems. It's used for accessing shared files over a network using these protocols.
+    • cjs:
+        ◦ The CJS (Common JavaScript) library is used by the Cinnamon desktop environment. It provides a JavaScript engine for GNOME Shell extensions and the Cinnamon user interface.
+    • cmake:
+        ◦ A build system generator that automates the process of building and compiling software. It generates makefiles or project files for various build systems, making it easier to manage complex build processes.
+    • colord-plugins:
+        ◦ Provides plugins for the Colord color management system, which is used to manage and calibrate color profiles on Linux systems.
+    • colord-sensors:
+        ◦ This component of Colord manages color sensors, which are used for calibrating displays and printers. It helps in collecting data from these sensors to improve color accuracy.
+    • crt1.o:
+        ◦ A part of the C runtime library, crt1.o is a startup file that sets up the runtime environment before the main function is executed. It includes code for setting up the stack and initializing the program's execution environment.
+    • crti.o:
+        ◦ This is an object file included in the C runtime library. It contains initialization code that is executed before the main function and is part of the process of setting up the runtime environment.
+    • crtn.o:
+        ◦ Another part of the C runtime library, crtn.o contains termination code that is executed after the main function has finished. It handles cleanup tasks when a program exits.
+
+
+    • cryptsetup:
+        ◦ Provides tools and libraries for managing disk encryption using LUKS (Linux Unified Key Setup). It is used to set up, manage, and encrypt partitions or volumes.
+    • cups-pk-helper-mechanism:
+        ◦ This is a helper mechanism for CUPS (Common UNIX Printing System) that interacts with PolicyKit to manage printer permissions and settings.
+    • device-mapper:
+        ◦ A kernel framework that provides a generic way to create and manage virtual block devices. It is used for tasks such as logical volume management (LVM) and device mapping.
+    • dhcpcd:
+        ◦ A DHCP client daemon used to obtain IP addresses and network configuration from a DHCP server. It is commonly used to manage network settings on Linux systems.
+    • dri:
+        ◦ Stands for Direct Rendering Infrastructure. It is a framework that allows applications to access graphics hardware directly, bypassing the X server, which can improve performance in graphics applications.
+    • e2fsprogs:
+        ◦ A suite of utilities for managing ext2, ext3, and ext4 filesystems. It includes tools for creating, checking, and repairing filesystems, as well as managing disk partitions.
+    • ecryptfs:
+        ◦ A stacked cryptographic filesystem that provides file-based encryption. It allows users to encrypt individual files or directories on a filesystem.
+    • enchant-2:
+        ◦ A spell-checking library that provides a unified interface to various spell-checking backends. It is used by applications to perform spell checking.
+    • engines-3:
+        ◦ Refers to OpenSSL engines, which provide additional cryptographic algorithms or hardware support for the OpenSSL library. The "3" likely indicates a version or specific set of engines.
+    • espeak-ng-data:
+        ◦ Data files for eSpeak NG (Next Generation), a text-to-speech engine. It includes voice data and language resources used by eSpeak NG to generate spoken output from text.
+
+    • Fwupd-1.9.16:
+        ◦ Firmware Update Daemon, which provides a framework for updating firmware on Linux systems. It allows for secure and easy updating of hardware firmware.
+    • gconv:
+        ◦ A component of the GNU C Library (glibc) that provides character set conversion functionality. It is used for converting text between different encodings.
+    • gcrt1.o:
+        ◦ Similar to crt1.o, this object file is part of the C runtime library and includes initialization code for the C runtime environment.
+    • gdk-pixbuf-2.0:
+        ◦ A library for loading and manipulating images. It is used by GTK+ (GIMP Toolkit) applications for handling various image formats.
+    • gettext:
+        ◦ Provides internationalization and localization support by managing translation of program messages. It helps in creating multilingual applications.
+    • gio:
+        ◦ A library part of GLib that provides a modern API for input, output, and data access operations. It is used for handling file I/O, network communication, and other data-related tasks.
+    • gir-1.0:
+        ◦ Provides the GObject Introspection Repository, which is used for generating and accessing metadata about GObject-based libraries. It enables language bindings and introspection.
+    • girepository-1.0:
+        ◦ A library for working with the GObject Introspection repository. It provides functions for accessing metadata about libraries and generating language bindings.
+    • glib-2.0:
+        ◦ A core library that provides fundamental utilities for C programming, such as data structures, utility functions, and event loops. It is a crucial component for many GNOME and GTK+ applications.
+    • gnome-keyring:
+        ◦ A keyring manager for GNOME that securely stores and manages user credentials, such as passwords and encryption keys. It integrates with GNOME desktop applications to provide secure access to sensitive data.
+
+
+    • gnome-terminal:
+        ◦ A terminal emulator for the GNOME desktop environment. It provides a command-line interface for interacting with the Linux shell.
+    • gprofng:
+        ◦ A profiling tool for analyzing the performance of applications. It helps developers understand where their applications are spending time and identify potential bottlenecks.
+    • grcrt1.o:
+        ◦ Similar to crt1.o and gcrt1.o, this object file is part of the C runtime library and contains initialization code for setting up the runtime environment.
+
+    • gtk-4.0:
+        ◦ The GTK+ (GIMP Toolkit) library version 4.0 is used for creating graphical user interfaces. It provides a set of widgets and tools for building modern, responsive desktop applications.
+    • gutenprint:
+        ◦ A suite of printer drivers for various inkjet and laser printers. It is used by CUPS (Common UNIX Printing System) to provide high-quality print capabilities.
+    • gvfs:
+        ◦ The GNOME Virtual File System is a user-space virtual file system that allows applications to access various file systems and services in a consistent way. It provides support for file management across different protocols, such as HTTP, FTP, and SMB.
+    • icu:
+        ◦ The International Components for Unicode (ICU) library provides support for Unicode and globalization. It includes functions for text processing, collation, date and time formatting, and more, supporting internationalization and localization.
+    • jni:
+        ◦ The Java Native Interface (JNI) is a framework that allows Java code running in the Java Virtual Machine (JVM) to interact with native applications and libraries written in other languages like C or C++.
+    • krb5:
+        ◦ The Kerberos 5 authentication protocol library provides secure authentication for network services. It is used to verify the identity of users and services in a networked environment.
+
+
+    • lapack:
+        ◦ The Linear Algebra PACKage (LAPACK) library provides routines for solving linear algebra problems, such as systems of linear equations, linear least squares problems, eigenvalue problems, and singular value decomposition.
+    • ldb:
+        ◦ The LDB (LDAP-like Database) library provides a lightweight, embedded database for managing directory-like data. It is often used in conjunction with Samba and other services requiring directory management.
+    • ld-linux-x86-64.so.2:
+        ◦ This is the dynamic linker/loader for 64-bit x86 Linux systems. It is responsible for loading shared libraries needed by a program at runtime and preparing the program for execution.
+    • ldscripts:
+        ◦ A collection of linker scripts used by the GNU linker (ld). These scripts define how various sections of object files should be arranged in the final executable or shared library.
+    • libaa.so.1:
+        ◦ The libaa (ASCII Art library) provides functions for creating and manipulating text-based graphics. The .so.1 indicates the version of the shared library.
+    • libaa.so.1.0.4:
+        ◦ A specific version of the libaa library, 1.0.4, providing the same functionality as libaa.so.1 but indicating a particular version of the library.
+    • libabsl:
+        ◦ Refers to the Abseil library (absl), which is a collection of C++ libraries that complement the C++ Standard Library. It provides utilities for common programming tasks, such as handling time, strings, and containers.
+    • libabw-0.1.so.1.0.3:
+        ◦ Part of the libabw library, which is used by AbiWord for handling ABW (AbiWord) file formats. This library helps in reading and writing AbiWord documents.
+    • libaccountsservice.so.0:
+        ◦ Provides the AccountsService library, which allows for managing user accounts and user-related operations. It’s used by various desktop environments and applications to handle user account details.
+
+
+    • libaccountsservice.so.0.0.0:
+        ◦ Indicates a specific version of the AccountsService library, where .0.0.0 is the version number.
+    • libacl.so.1:
+        ◦ The ACL (Access Control Lists) library provides functionality for managing file permissions beyond the standard Unix permissions. It allows for fine-grained control over file access.
+    • libacl.so.1.1.2302:
+        ◦ A specific version of the libacl library, providing the same functionality but with version details included (1.1.2302).
+    • libadwaita-1.so.0:
+        ◦ Part of the Adwaita library used by GNOME for creating modern and consistent user interfaces. It is commonly used in GNOME applications and libraries.
+    • libaio.so.1t64:
+        ◦ Provides asynchronous I/O support for applications, allowing non-blocking input/output operations. The t64 suffix might indicate a specific variant or build.
+    • libaio.so.1t64.0.2:
+        ◦ A specific version of the libaio library, where 0.2 represents the version number.
+    • libanl.a:
+        ◦ An archive library for handling network address and name lookup functions. The .a suffix indicates that it's a static library.
+    • libanl.so:
+        ◦ Provides the same functionality as libanl.a but as a shared library. It includes functions for network address lookup and name resolution.
+    • libanl.so.1:
+        ◦ Indicates a specific version of the shared libanl library.
+    • libaom.so.3:
+        ◦ The AOMedia Video 1 (AV1) codec library. It provides encoding and decoding support for the AV1 video codec, which is used for high-efficiency video compression.
+    • libaom.so.3.8.2:
+        ◦ A specific version of the AOM library, indicating version 3.8.2.
+    • libao.so.4:
+        ◦ The Audio Output library, used for handling audio output across different platforms. It provides a unified interface for various audio output systems.
+    • libao.so.4.1.1:
+        ◦ A specific version of the libao library, where 4.1.1 indicates the version.
+    • libapparmor.so.1:
+        ◦ Provides the AppArmor library, which is used for mandatory access control (MAC) in Linux. It helps in defining and enforcing security policies for applications.
+    • libapparmor.so.1.17.1:
+        ◦ A specific version of the AppArmor library, 1.17.1 indicating the version number.
+    • libappindicator3.so.1:
+        ◦ Provides support for application indicators (system tray icons) in the GNOME desktop environment. It allows applications to add icons to the system tray and provide status updates or notifications.
+    • libappstream.so.1.0.2:
+        ◦ Provides the AppStream library, which is used for managing software metadata and application catalogs. It helps in providing a unified interface for software discovery and installation.
+    • libappstream.so.5:
+        ◦ A specific version of the AppStream library, where 5 represents the major version.
+    • libapr-1.so.0:
+        ◦ Part of the Apache Portable Runtime (APR) library, which provides a consistent API for system-level and application-level tasks. It is used in various Apache software projects.
+    • libapr-1.so.0.7.2:
+        ◦ A specific version of the APR library, indicating version 0.7.2.
+    • libaprutil-1.so.0:
+        ◦ Provides additional utility functions for APR, such as database support, XML parsing, and other functionalities.
+    • libaprutil-1.so.0.6.3:
+        ◦ A specific version of the APR-util library, where 0.6.3 indicates the version.
+    • libapt-pkg.so.6.0:
+        ◦ The APT (Advanced Package Tool) library provides functions for managing packages and dependencies in Debian-based systems.
+          
+    • libapt-pkg.so.6.0.0:
+        ◦ A specific version of the APT library, where 6.0.0 is the version number.
+    • libapt-private.so.0.0:
+        ◦ Contains private symbols and functions used internally by APT. It is not intended for public use but is essential for the functionality of APT tools.
+    • libapt-private.so.0.0.0:
+        ◦ A specific version of the APT private library, indicating version 0.0.0.
+    • libarchive.so.13:
+        ◦ Provides functions for reading and writing archive files, such as tarballs and zip files. It supports various archive formats.
+    • libarchive.so.13.7.2:
+        ◦ A specific version of the libarchive library, with version 13.7.2.
+    • libargon2.so.1:
+        ◦ Provides the Argon2 password hashing algorithm, which is used for securely hashing passwords and protecting against brute-force attacks.
+    • libasan.so.8:
+        ◦ The AddressSanitizer (ASan) library helps in detecting memory errors, such as buffer overflows and use-after-free errors, during runtime.
+    • libasan.so.8.0.0:
+        ◦ A specific version of the AddressSanitizer library, indicating version 8.0.0.
+    • libasound.so.2:
+        ◦ The ALSA (Advanced Linux Sound Architecture) library provides audio functionality and is used for handling sound on Linux systems.
+    • libasound.so.2.0.0:
+        ◦ A specific version of the ALSA library, where 2.0.0 is the version number.
+    • libaspell.so.15:
+        ◦ Provides the Aspell library, a spell-checking library used for text processing and spell correction in various applications.
+    • libaspell.so.15.3.1:
+        ◦ A specific version of the Aspell library, 15.3.1 indicating the version.
+    • libass.so.9:
+        ◦ Provides the libass library, used for subtitle rendering in multimedia applications. It supports various subtitle formats and provides advanced features for text rendering.
+    • libass.so.9.2.1:
+        ◦ A specific version of the libass library, 9.2.1 indicating the version number.
+    • libassuan.so.0:
+        ◦ Provides the libassuan library, which is used for communication between different components of the GPG (GNU Privacy Guard) system, such as the GPG agent and the keyring.
+    • libassuan.so.0.8.6:
+        ◦ A specific version of the libassuan library, indicating version 0.8.6.
+    • libastyle.so.3:
+        ◦ Provides the AStyle (Artistic Style) library for formatting and beautifying C, C++, Java, and other programming languages.
+    • libastyle.so.3.1.0:
+        ◦ A specific version of the AStyle library, 3.1.0 indicating the version number.
+    • libasyncns.so.0:
+        ◦ Provides the asynchronous name service library, which allows for non-blocking DNS and name resolution operations.
+    • libasyncns.so.0.3.1:
+        ◦ A specific version of the asynchronous name service library, with version 0.3.1.
+    • libatasmart.so.4:
+        ◦ Provides functions for monitoring and querying the S.M.A.R.T. (Self-Monitoring, Analysis, and Reporting Technology) status of hard drives.
+    • libatasmart.so.4.0.5:
+        ◦ A specific version of the libatasmart library, with version 4.0.5.
+    • libatk-1.0.so.0:
+        ◦ Part of the ATK (Accessibility Toolkit) library, which provides accessibility features for applications, making them usable by people with disabilities.
+    • libatk-1.0.so.0.25209.1:
+        ◦ A specific version of the ATK library, 0.25209.1 indicating the version number.
+    • libatk-bridge-2.0.so.0:
+        ◦ Provides the ATK Bridge library, which allows for accessibility tools to interact with GTK+ applications. It enables assistive technologies to access and manipulate the user interface elements of applications.
+
+    • libatk-bridge-2.0.so.0.0.0:
+        ◦ A specific version of the ATK Bridge library, indicating version 0.0.0.
+    • libatkmm-1:
+    • Provides C++ bindings for the ATK (Accessibility Toolkit) library. It is used to develop accessible applications with GTK+.
+    • libatm:
+    • Supports ATM (Asynchronous Transfer Mode) networking. It includes functionalities for managing ATM network protocols.
+    • libatomic:
+    • Provides atomic operations for multithreaded programming, ensuring thread safety for operations on variables shared between threads.
+    • libatopology:
+    • Likely manages or queries system or network topology information. Specific use may vary depending on the application.
+    • libatspi:
+    • The AT-SPI (Assistive Technology Service Provider Interface) library, allowing assistive technologies to interact with and query user interface elements for accessibility purposes.
+    • libattr:
+    • Manages extended attributes of files, allowing additional metadata to be stored alongside files beyond the standard attributes.
+    • libaudit:
+    • Provides the Audit framework for tracking and managing security-relevant events on Linux systems.
+    • libavahi-client:
+    • Client-side library for mDNS/DNS-SD (multicast DNS/Service Discovery), allowing applications to discover services on the local network.
+    • libavahi-common:
+    • Contains common components of the Avahi library suite for network service discovery and management.
+    • libavahi-core:
+    • Core functionalities of Avahi for service discovery and network protocols.
+    • libavahi-glib:
+    • GLib bindings for Avahi, integrating Avahi functionalities with GLib-based applications.
+    • libavc1394:
+    • Supports IEEE 1394 (FireWire) for handling video and audio streams over FireWire connections.
+    • libavcodec:
+    • Part of the FFmpeg suite, providing codecs for encoding and decoding a wide range of audio and video formats.
+    • libavdevice:
+    • Part of FFmpeg, handles input and output devices for audio and video.
+    • libavfilter:
+    • Provides video and audio filtering capabilities within FFmpeg, enabling various effects and transformations.
+    • libavformat:
+    • Part of FFmpeg, responsible for handling multimedia container formats.
+    • libavutil:
+    • Provides utility functions for FFmpeg, including data structures and algorithms used in multimedia processing.
+    • libayatana-appindicator3:
+    • Provides support for application indicators in GNOME, allowing applications to add system tray icons and provide status updates.
+    • libayatana-ido3-0:
+    • Part of Ayatana Indicators, used for integrating indicators into the GNOME desktop environment.
+    • libayatana-indicator3:
+    • Another library for integrating indicators into GNOME, supporting system tray icons and notifications.
+    • libbabeltrace-ctf-metadata:
+    • Handles metadata for CTF (Common Trace Format) within the Babeltrace framework for tracing and logging.
+    • libbabeltrace-ctf:
+    • Provides functionality for parsing and manipulating CTF trace data.
+    • libbabeltrace-ctf-text:
+    • Handles CTF trace data in a human-readable text format.
+    • libbabeltrace-dummy:
+    • A placeholder or test library within the Babeltrace framework.
+    • libbabeltrace-lttng-live:
+    • Supports live trace data from LTTng (Linux Trace Toolkit Next Generation), useful for real-time tracing and monitoring.
+    • libbabeltrace:
+    • Core Babeltrace library for trace data processing and manipulation.
+    • libbd_crypto:
+    • Provides cryptographic functionalities for the bd (block device) suite.
+    • libbd_fs:
+    • Manages filesystem-related functionalities within the bd suite.
+    • libbd_loop:
+    • Related to loop devices, providing management functionalities for loopback devices.
+    • libbd_mdraid:
+    • Provides support for managing and interacting with MD (multiple device) RAID configurations.
+    • libbd_nvme:
+    • Provides functionalities for managing NVMe (Non-Volatile Memory Express) devices.
+    • libbd_part:
+    • Handles partitioning functionalities within the bd suite.
+    • libbd_swap:
+    • Manages swap space functionalities for the bd suite.
+    • libbd_utils:
+    • Provides utility functions and tools for the bd suite.
+    • libbfd-2:
+    • Part of the GNU Binary File Descriptor library (BFD), used for manipulating object files and binary formats.
+    • libbind9-9:
+    • Part of the BIND (Berkeley Internet Name Domain) DNS server suite, providing DNS functionalities.
+    • libblas:
+    • The Basic Linear Algebra Subprograms (BLAS) library provides routines for basic linear algebra operations such as vector and matrix operations.
+    • libblkid:
+    • Provides functions for identifying and querying block devices, such as disks and partitions.
+    • libblockdev:
+    • A library for managing block devices and related operations, such as partitioning and formatting.
+    • libbluetooth:
+    • Provides Bluetooth support, including functionalities for managing Bluetooth connections and devices.
+    • libbluray:
+    • Provides support for Blu-ray disc formats, allowing applications to read and interact with Blu-ray discs.
+    • libboost_iostreams:
+    • Part of the Boost C++ Libraries, providing functionalities for stream-based input and output operations.
+    • libboost_locale:
+    • Part of Boost, offering localization and internationalization support for C++ applications.
+    • libboost_thread:
+    • Provides threading support as part of the Boost C++ Libraries, including functionalities for managing threads and synchronization.
+    • libbpf:
+    • Provides support for the BPF (Berkeley Packet Filter) and eBPF (extended BPF) systems, used for network packet filtering and tracing.
+    • libbrasero-burn3:
+    • Provides functionalities for burning optical media (CDs/DVDs) using the Brasero disc burning application.
+    • libbrasero-media3:
+    • Part of Brasero, handling media-related functionalities for disc burning.
+    • libbrasero-utils3:
+    • Provides utility functions for the Brasero application, used for managing disc burning tasks.
+    • libbrlapi:
+    • Provides an API for interacting with Braille devices, enabling accessibility features for visually impaired users.
+    • libBrokenLocale:
+    • Provides support for handling broken locale settings, ensuring compatibility and proper functionality for internationalization.
+    • libbrotlicommon:
+    • Common library components for Brotli compression, providing functionalities used by Brotli compression algorithms.
+    • libbrotlidec:
+    • Provides decoding functionalities for Brotli compressed data, used in data compression and decompression.
+    • libbrotlienc:
+    • Provides encoding functionalities for Brotli compression, used for compressing data.
+    • libbs2b:
+    • Provides support for the BS2B (Bauer & Schneider 2-Byte) audio compression format.
+    • libbsd:
+    • Provides various utilities and functionalities from the BSD operating systems, including compatibility functions for POSIX and BSD standards.
+    • libburn:
+    • Provides functionalities for burning CDs and DVDs, often used in disc burning applications.
+    • libbytesize:
+    • Provides functions for handling and converting sizes and units of data storage.
+    • libbz2:
+    • Provides support for Bzip2 compression, including functions for compressing and decompressing Bzip2 files.
+    • libc:
+    • The GNU C Library (glibc) provides core system functionalities for C programs, including standard I/O, memory management, and system calls.
+    • libcaca++:
+    • C++ bindings for the libcaca library, which is used for creating text-based graphics and manipulating ASCII art.
+    • libcaca:
+    • Provides functionalities for creating and manipulating ASCII art and text-based graphics.
+    • libcairo-gobject:
+    • Provides GObject bindings for the Cairo graphics library, integrating Cairo with the GObject type system used in GNOME and GTK+ applications.
+    • libcairomm-1:
+    • C++ bindings for the Cairo graphics library, enabling object-oriented programming with Cairo.
+    • libcairo-script-interpreter:
+    • Provides support for interpreting scripts that use the Cairo graphics library for rendering.
+    • libcairo:
+    • A 2D graphics library used for vector graphics, providing functionalities for drawing shapes, text, and images.
+    • libcamel-1:
+    • Provides a library for handling email and calendar data, used by applications like Evolution.
+    • libcanberra-0:
+    • Provides functionalities for handling sound events and notifications in applications.
+    • libcanberra-gtk3:
+    • Integrates libcanberra with GTK+ 3, enabling sound event handling within GTK+ applications.
+    • libcanberra:
+    • Provides sound event handling for desktop applications, including support for system sounds and notifications.
+    • libcap-ng:
+    • Provides enhanced capabilities management for Linux, allowing for fine-grained control of process privileges.
+    • libcap:
+    • Provides support for POSIX capabilities, enabling finer control over process permissions and privileges.
+    • libcaribou:
+    • Provides on-screen keyboard and accessibility features for GNOME.
+    • libcbor:
+    • Provides support for CBOR (Concise Binary Object Representation), a binary data serialization format.
+    • libcc1:
+    • Part of the GCC compiler suite, providing functionalities for the internal representation and processing of C++ code.
+    • libcdda_interface:
+    • Provides an interface for reading and interacting with audio CDs.
+    • libcdda_paranoia:
+    • Provides functionalities for reading audio CDs with error correction and recovery.
+    • libcdio_cdda:
+    • Provides support for handling CD audio data, including reading and playing audio CDs.
+    • libcdio_paranoia:
+    • Provides error recovery and correction functionalities for reading audio CDs.
+    • libcdio:
+    • A library for handling CD-ROMs and related devices, providing functionalities for reading data from CDs.
+    • libcdr-0:
+    • Provides support for handling CorelDRAW file formats.
+    • libchamplain-0:
+    • Provides functionalities for embedding and displaying maps in applications.
+    • libchamplain-gtk-0:
+    • Integrates Champlain map functionalities with GTK+ applications.
+    • libchromaprint:
+    • Provides audio fingerprinting functionalities, used for identifying and matching audio tracks.
+    • libcinnamon-control-center:
+    • Provides control center functionalities for the Cinnamon desktop environment.
+    • libcinnamon-desktop:
+    • Provides desktop-related functionalities and utilities for the Cinnamon desktop environment.
+    • libcinnamon-menu-3:
+    • Provides functionalities for managing and displaying application menus in the Cinnamon desktop environment.
+    • libcjson:
+    • Provides support for JSON (JavaScript Object Notation) parsing and manipulation.
+    • libcjson_utils:
+    • Utility functions for working with JSON data.
+    • libcjs:
+    • A JavaScript engine library, often used for embedding JavaScript into applications.
+    • libclang-18:
+    • Provides the Clang compiler front-end library, used for parsing and analyzing C/C++ code.
+    • libclang-cpp:
+    • Provides Clang’s C++ library, enabling C++ code analysis and manipulation.
+    • libclucene-contribs-lib:
+    • Contributed libraries for the CLucene text search engine, providing additional functionalities and features.
+    • libclucene-core:
+    • Core libraries for the CLucene search engine, used for indexing and searching text.
+    • libclucene-shared:
+    • Shared libraries for CLucene, providing core search functionalities.
+    • libclutter-1:
+    • Provides a framework for creating fast and visually rich graphical user interfaces.
+    • libclutter-gst-3:
+    • Integrates Clutter with GStreamer, enabling multimedia functionalities within Clutter-based applications.
+    • libclutter-gtk-1:
+    • Integrates Clutter with GTK+, allowing Clutter to be used in GTK+ applications.
+    • libc_malloc_debug:
+    • Provides debugging functionalities for memory allocation, used to track and diagnose memory-related issues.
+    • libc_nonshared:
+    • Contains non-shared components of the C library, used internally by the GNU C Library.
+    • libcodec2: - Provides support for Codec2, a low-bitrate audio codec designed for voice communication.
+    • libcogl-pango: Provides integration between the COGL graphics library and Pango for text rendering.
+    • libcogl-path: Part of COGL, it provides support for vector graphics and path operations.
+    • libcogl: A low-level graphics library designed for use in GNOME and other graphical applications.
+    • libcolamd: Provides a library for column approximate minimum degree ordering used in sparse matrix computations.
+    • libcolordprivate: A private library used by the Colord color management system.
+    • libcolord: Provides color management services, including ICC profile management.
+    • libcolorhug: Manages color calibration and profiling with the ColorHug device.
+    • libcom_err: Provides error-handling routines used by various applications and libraries.
+    • libcpdb: A library for handling and managing contact and address book data.
+    • libcrack: Used for password cracking; it provides functions for generating and checking password hashes.
+    • libcrypt: Provides cryptographic functions, including hashing algorithms.
+    • libcrypto: Part of OpenSSL, it provides various cryptographic algorithms and utilities.
+    • libcryptsetup: Manages disk encryption, particularly with LUKS (Linux Unified Key Setup).
+    • libcscreensaver: Provides functions related to screen savers for the GNOME desktop environment.
+    • libctf-nobfd: Provides handling of CTF (Compact C Type Format) data, with support for debugging and analysis.
+    • libctf: Provides handling for the Compact C Type Format (CTF) used in debugging.
+    • libcupsfilters: Provides various filters and utilities for managing and processing print jobs with CUPS.
+    • libcupsimage: Provides functions for handling and processing images in the CUPS printing system.
+    • libcups: The Common Unix Printing System library for managing printers and print jobs.
+    • libcurl: A library for transferring data with URLs, supporting various protocols like HTTP, FTP, and more.
+    • libcurl-gnutls: A variant of libcurl that uses GnuTLS for TLS/SSL support instead of OpenSSL.
+    • libcurses: Provides terminal handling and management functions for text-based user interfaces.
+    • libcvc: Provides the CVC (Certified Verification Corporation) API for dealing with digital certificates.
+    • libcwidget: Provides a set of widgets and tools for text-based user interfaces in terminal applications.
+    • libdaemon: Provides a set of functions for writing and managing Unix daemons.
+    • libdatrie: A library for manipulating double-array trie data structures.
+    • libdav1d: A library for decoding AV1 video streams.
+    • libdazzle-1: Provides utilities and widgets used in GNOME applications, including a set of advanced widgets and helper functions.
+    • libdb-5: A version of the Berkeley DB library, which provides high-performance database management.
+    • libdbus-1: A library for inter-process communication using the D-Bus message bus system.
+    • libdbus-glib-1: Provides GLib bindings for the D-Bus library.
+    • libdbusmenu-glib: Provides a D-Bus menu system for GTK+ applications, used for application menus and other GUI components.
+    • libdbusmenu-gtk3: Provides a D-Bus menu system for GTK3 applications.
+    • libdc1394: A library for handling IEEE 1394 (FireWire) cameras and other devices.
+    • libdcerpc-binding: Provides bindings for the DCE/RPC (Distributed Computing Environment/Remote Procedure Call) protocol.
+    • libdcerpc-samr: Part of the DCE/RPC library, specifically for SAMR (Security Account Manager Remote) protocol.
+    • libdcerpc-server-core: Core components for setting up a DCE/RPC server.
+    • libdcerpc-server: Provides support for DCE/RPC server functionalities.
+    • libdcerpc: Provides DCE/RPC client and server functionalities.
+    • libdconf: Provides configuration management services, used for storing and retrieving application settings.
+    • libde265: Provides a library for decoding HEVC/H.265 video streams.
+    • libdebconfclient: A library for interacting with Debian configuration dialogs and services.
+    • libdebuginfod-0: Provides support for accessing and managing debugging symbols.
+    • libdebuginfod: Provides support for fetching debugging information from various sources.
+    • libdecor-0: A library for window decorations and related functionalities in graphical environments.
+    • libdee-1: Provides a library for managing data collections and synchronization.
+    • libdeflate: Provides a fast and efficient implementation of the DEFLATE compression algorithm.
+    • libdevmapper-event-lvm2mirror: Provides support for LVM2 (Logical Volume Manager) mirror events.
+    • libdevmapper-event-lvm2raid: Provides support for LVM2 RAID events.
+    • libdevmapper-event-lvm2snapshot: Provides support for LVM2 snapshot events.
+    • libdevmapper-event-lvm2: Provides support for LVM2 events in general.
+    • libdevmapper-event-lvm2thin: Provides support for LVM2 thin provisioning events.
+    • libdevmapper-event-lvm2vdo: Provides support for LVM2 VDO (Virtual Data Optimizer) events.
+    • libdevmapper-event: Provides event handling for device mapper events.
+    • libdevmapper: Provides device-mapper functionality for managing virtual block devices.
+    • libdialog: Provides functions for creating text-based dialog boxes in terminal applications.
+    • libdjvulibre: A library for handling DJVU file format, which is used for scanned documents.
+    • libdl: Provides dynamic linking functions for loading shared libraries.
+    • libdmapsharing-4: Provides support for DMAP (Digital Media Access Protocol) sharing services.
+    • libdmraid: Provides support for managing RAID (Redundant Array of Independent Disks) arrays.
+    • libdns-9: Provides functions for DNS (Domain Name System) resolution, part of BIND (Berkeley Internet Name Domain).
+    • libdotconf: A library for parsing and handling configuration files in a dotconf format.
+    • libdouble-conversion: Provides functions for converting between strings and floating-point numbers.
+    • libdrm_amdgpu: Provides Direct Rendering Manager (DRM) support for AMD GPU hardware.
+    • libdrm_intel: Provides DRM support for Intel graphics hardware.
+    • libdrm_nouveau: Provides DRM support for NVIDIA Nouveau graphics hardware.
+    • libdrm_radeon: Provides DRM support for AMD Radeon graphics hardware.
+    • libdrm: Provides DRM (Direct Rendering Manager) functionalities for managing graphics hardware.
+    • libdrop_ambient: Provides a library for managing ambient security policies.
+    • libduktape: A lightweight JavaScript engine for embedding in applications.
+    • libdvdnav: Provides functions for navigating and controlling DVD playback.
+    • libdvdread: Provides functions for reading data from DVDs.
+    • libdv: Provides functions for handling DV (Digital Video) data.
+    • libdw-0: Part of the libdw library, providing DWARF debugging information handling.
+    • libdw: Provides functions for reading and handling DWARF debugging information.
+    • libe2p: Provides functions for manipulating ext2/ext3/ext4 filesystem metadata.
+    • libebackend-1: Part of the GNOME ecosystem, provides backend services for various GNOME libraries.
+    • libe-book-0: Provides functions for handling e-book data in GNOME.
+    • libebook-1: Provides functions for managing electronic address book data.
+    • libebook-contacts-1: Provides functions for managing contact data in GNOME.
+    • libecal-2: Provides functions for managing calendar data in GNOME.
+    • libecryptfs: Provides support for encrypted filesystem operations using eCryptfs.
+    • libedata-book-1: Provides functions for managing book data in GNOME.
+    • libedata-cal-2: Provides functions for managing calendar data in GNOME.
+    • libedataserver-1: Provides services for managing and accessing data in GNOME applications.
+    • libedataserverui-1: Provides user interface components for the edataserver library.
+    • libedit: Provides a library for command line editing, similar to GNU Readline.
+    • libefiboot: Provides functions for managing UEFI boot entries and variables.
+    • libefivar: Provides functions for managing UEFI variables.
+    • libEGL_mesa: Provides EGL (Embedded-System Graphics Library) support using Mesa drivers.
+    • libEGL: Provides EGL (Embedded-System Graphics Library) support for managing graphics contexts and surfaces.
+    • libelf-0: Provides functions for handling ELF (Executable and Linkable Format) files.
+    • libelf: Provides a library for reading and writing ELF files.
+    • libenchant-2: Provides a spell-checking library with support for multiple backends.
+    • libeot: Provides functions for handling EOT (Embedded OpenType) fonts.
+    • libepoxy: Provides functions for managing OpenGL extensions and context creation.
+    • libept: Provides tools for handling and manipulating package metadata in Debian-based systems.
+    • libepubgen-0: Provides functions for generating EPUB (Electronic Publication) files.
+    • libespeak-ng: Provides text-to-speech (TTS) functionalities.
+    • libestr: Provides functions for handling strings and string manipulation in C.
+    • libetonyek-0: Library for handling OpenDocument file formats used in LibreOffice and similar applications.
+    • libevdev: Provides an API for handling input device events (e.g., keyboard, mouse).
+    • libevent-2: Provides an event notification library, handling I/O and timer events for applications.
+    • libexempi: Provides tools for handling and manipulating XMP (Extensible Metadata Platform) metadata in files.
+    • libexif: Handles EXIF (Exchangeable Image File Format) metadata in image files, typically JPEG.
+    • libexiv2: Provides functions for reading and writing metadata in image files (EXIF, IPTC, and XMP).
+    • libexpat: An XML parsing library, often used for parsing and handling XML data.
+    • libexpatw: A variant of libexpat that supports wide character encodings.
+    • libexslt: Provides an XSLT extension library for extending XSLT functionality with additional functions.
+    • libext2fs: Provides functions for accessing and manipulating ext2/ext3/ext4 filesystem structures.
+    • libexttextcat-2: Provides functions for language detection using text categorization.
+    • libfakeroot: Allows applications to simulate root privileges for testing purposes.
+    • libfastjson: Provides a library for fast JSON parsing and generation.
+    • libfcgi++: A C++ wrapper for FastCGI, providing a framework for web application development.
+    • libfcgi: Provides a FastCGI library for interfacing with web servers.
+    • libfdisk: Provides functions for handling disk partitions and filesystems.
+    • libffi: Provides a Foreign Function Interface (FFI) for calling functions and accessing data in C from other languages.
+    • libffi_pic: A position-independent variant of libffi for use in shared libraries.
+    • libffmpegthumbnailer: Generates thumbnails from video files using FFmpeg.
+    • libfftw3f_omp: FFTW3 library with OpenMP support for parallelized FFT computations (single precision).
+    • libfftw3f: FFTW3 library for fast Fourier transforms (single precision).
+    • libfftw3f_threads: FFTW3 library with thread support (single precision).
+    • libfftw3_omp: FFTW3 library with OpenMP support for parallelized FFT computations (double precision).
+    • libfftw3: FFTW3 library for fast Fourier transforms (double precision).
+    • libfftw3_threads: FFTW3 library with thread support (double precision).
+    • libfido2: Provides support for FIDO2/WebAuthn security keys for authentication.
+    • libFLAC: Provides functions for encoding and decoding FLAC (Free Lossless Audio Codec) files.
+    • libflashrom: A library for handling flash ROMs and BIOS programming.
+    • libflatpak: Provides functionalities for Flatpak package management and sandboxing.
+    • libflite_cmu_grapheme_lang: A language module for the Flite text-to-speech engine, based on CMU grapheme.
+    • libflite_cmu_grapheme_lex: A lexical analysis module for CMU grapheme-based text-to-speech synthesis.
+    • libflite_cmu_indic_lang: A language module for Indic languages in the Flite text-to-speech engine.
+    • libflite_cmu_indic_lex: A lexical analysis module for Indic languages in Flite.
+    • libflite_cmulex: CMU lexical analysis module for the Flite text-to-speech engine.
+    • libflite_cmu_time_awb: A Flite module for CMU time-based synthesis.
+    • libflite_cmu_us_awb: A Flite module for CMU American English with a wide-band synthesis voice.
+    • libflite_cmu_us_kal16: A Flite module for CMU American English (Kal) with a 16 kHz voice.
+    • libflite_cmu_us_kal: A Flite module for CMU American English (Kal) with a standard voice.
+    • libflite_cmu_us_rms: A Flite module for CMU American English (RMS) synthesis voice.
+    • libflite_cmu_us_slt: A Flite module for CMU American English (SLT) synthesis voice.
+    • libflite: A small, fast speech synthesis engine providing text-to-speech capabilities.
+    • libflite_usenglish: A Flite module for U.S. English text-to-speech synthesis.
+    • libfontconfig: Provides a library for font configuration and management.
+    • libfontenc: Manages font encodings for X11 and other graphical environments.
+    • libform: Part of the ncurses library, provides functions for handling form input in text-based interfaces.
+    • libformw: Wide-character version of the libform library for handling forms in text-based interfaces.
+    • libfprint-2: Provides fingerprint recognition support for authentication.
+    • libfprint-2-tod: Provides a library for fingerprint recognition in the context of TOD (Time-of-Departure).
+    • libfreeaptx: Provides support for APTX (Audio Processing Technology) codec used in Bluetooth audio.
+    • libfreebl3: Provides FreeBL (Free Basic Libraries) cryptographic functions.
+    • libfreeblpriv3: Provides private cryptographic functions for FreeBL.
+    • libfreehand-0: Provides a library for handling FreeHand file formats.
+    • libfreetype: A library for rendering and manipulating fonts, especially TrueType and OpenType fonts.
+    • libfribidi: Provides bidirectional text processing support for scripts like Arabic and Hebrew.
+    • libftdi1: Provides functions for handling FTDI USB devices.
+    • libfuse3: Provides a library for creating and managing filesystems in user space.
+    • libfSimilar to libfuse3, provides functionality for user-space filesystems.
+    • libfwupd: Provides support for managing firmware updates on Linux systems.
+    • libg: This is not specific, but could refer to a library with a generic name.
+    • libgailutil-3: Provides utilities for the GAIL (GNOME Accessibility Implementation Library).
+    • libgailutil: Similar to libgailutil-3, provides utilities for accessibility.
+    • libgamemodeauto: Provides automatic game mode switching for improving gaming performance.
+    • libgamemode: Provides a framework for optimizing game performance and reducing latency.
+    • libgbm: Provides a library for managing graphics buffers for use with DRM.
+    • libgcalc-2: Provides a library for GNOME Calculator functions.
+    • libgccpp: C++ standard library for the GCC compiler.
+    • libgcc_s: Provides the GCC runtime library for exception handling and other features.
+    • libgci-1: Provides GNOME Configuration Interface library functions.
+    • libgck-1: Provides a library for handling cryptographic tokens and keys.
+    • libgck-2: A newer version of libgck, providing cryptographic token functionalities.
+    • libgcr-4: Provides functions for cryptographic operations and key management.
+    • libgcr-base-3: Provides base functionality for the GCR library.
+    • libgcr-ui-3: Provides user interface components for the GCR library.
+    • libgcrypt: Provides cryptographic functions and utilities.
+    • libgc: Provides a garbage collection library for C and C++.
+    • libgctba: Provides functions for GCT (Generic Character Table) processing.
+    • libgdata: Provides access to various online data sources like Google services.
+    • libgdbm_compat: Provides compatibility functions for the GNU DBM (Database Manager) library.
+    • libgdbm: Provides a library for managing database files using GNU DBM.
+    • libgdk-3: Provides functions for creating and manipulating graphical user interface elements in GTK+.
+    • libgdkmm-3: C++ bindings for the GDK library used in GTK+.
+    • libgdk_pixbuf-2: Provides functions for image manipulation and rendering in GTK+.
+    • libgdk-x11-2: Provides X11-specific functionality for the GDK library.
+    • libgd: Provides functions for creating and manipulating images in various formats.
+    • libgee-0: Provides a library for generic data structures used in GNOME applications.
+    • libgeoclue-2: Provides location-based services and geolocation functionalities.
+    • libgeocode-glib-2: Provides geocoding services for converting addresses to geographic coordinates.
+    • libgettextlib-0: Provides functions for handling internationalization and localization.
+    • libgettextsrc-0: Provides functions for working with gettext translation files.
+    • libgexiv2: Provides functions for handling image metadata (EXIF, IPTC, XMP) in the GNOME ecosystem.
+    • libgfortran: Provides Fortran runtime support for GCC.
+    • libgif: Provides functions for handling GIF (Graphics Interchange Format) files.
+    • libgio-2: Provides core functionalities for the GIO library used in GNOME applications.
+    • libgiomm-2: C++ bindings for the GIO library.
+    • libgirepository-1: Provides functions for handling GObject introspection data.
+    • libgirepository-2: A newer version of libgirepository, providing introspection support.
+    • libglapi: Provides GL API (OpenGL) function implementations.
+    • libGLdispatch: Manages OpenGL function dispatching and context creation.
+    • libGLESv2: Provides the OpenGL ES (Embedded Systems) 2.0 API for graphics programming.
+    • libglib-2: Provides core utility functions for the GNOME project, including data structures and event loops.
+    • libglibmm-2: C++ bindings for the GLib library used in GNOME.
+    • libglibmm_generate_extra_defs-2: Generates additional definitions for the GLib C++ bindings.
+    • libGL: Provides OpenGL library functions for rendering 2D and 3D graphics.
+    • libGLU: Provides the OpenGL Utility Library functions, including higher-level drawing routines.
+    • libGLX_indirect: Provides indirect GLX (OpenGL Extension to X) rendering support.
+    • libGLX_mesa: Provides Mesa's implementation of the GLX API.
+    • libGLX: Provides GLX functionality for managing OpenGL contexts in X11.
+    • libgme: Provides functions for playing video game music.
+    • libgmodule-2: Provides modularity support for dynamically loading and linking modules in GNOME applications.
+    • libgmp: Provides functions for arbitrary-precision arithmetic.
+    • libgnome-desktop-3: Provides GNOME desktop environment functionalities and utilities.
+    • libgnomekbd: Provides support for keyboard layouts and configurations in GNOME.
+    • libgnomekbdui: Provides user interface components for GNOME keyboard management.
+    • libgnutls: Provides functions for implementing SSL/TLS and cryptographic operations.
+    • libgoa-1: Provides integration with GNOME Online Accounts for authentication and services.
+    • libgoa-backend-1: Backend library for handling GNOME Online Accounts integration.
+    • libgobject-2: Provides core functionality for the GObject object system used in GNOME.
+    • libgomp: Provides the GCC OpenMP runtime library for parallel programming.
+    • libgpg-error: Provides error handling functions for GnuPG (GNU Privacy Guard) and related libraries.
+    • libgpgmepp: C++ bindings for the GPGME (GnuPG Made Easy) library.
+    • libgpgme-pthread: Provides pthread (POSIX threads) support for the GPGME library.
+    • libgpgme: Provides a library for interacting with GnuPG (GNU Privacy Guard) from applications.
+    • libgphoto2: Provides functions for interfacing with digital cameras.
+    • libgphoto2_port: Provides low-level port interface for the gphoto2 library.
+    • libgpm: Provides functions for mouse support in text-based applications.
+    • libgpod: Provides support for managing and interacting with iPods and other Apple devices.
+    • libgprofng: Provides profiling tools for analyzing program performance.
+    • libgraphene-1: Provides a library for handling geometric data structures and transformations.
+    • libgraphite2: Provides functions for font rendering and text shaping.
+    • libgrilo-0: Provides a library for handling media metadata and searching.
+    • libgrlnet-0: Provides network functionalities for the Grilo media framework.
+    • libgrlpls-0: Provides playlist functionalities for the Grilo media framework.
+    • libgsf-1: Provides a library for reading and writing structured file formats.
+    • libgsm: Provides functions for handling GSM (Global System for Mobile Communications) audio compression.
+    • libgsound: Provides a library for sound notification in GNOME applications.
+    • libgspell-1: Provides spell-checking functionalities for GNOME applications.
+    • libgssapi_krb5: Provides GSSAPI (Generic Security Services Application Program Interface) support for Kerberos.
+    • libgs: Provides a library for handling PostScript and PDF files.
+    • libgstallocators-1: Part of the GStreamer multimedia framework, handles memory allocation.
+    • libgstapp-1: Provides application-level functionalities for GStreamer.
+    • libgstaudio-1: Provides audio functionalities for GStreamer.
+    • libgstbase-1: Provides base functionalities for GStreamer plugins.
+    • libgstbasecamerabinsrc-1: Provides camera bin source functionalities for GStreamer.
+    • libgstcheck-1: Provides tools for testing GStreamer pipelines.
+    • libgstcontroller-1: Provides controls and animations for GStreamer.
+    • libgstfft-1: Provides FFT (Fast Fourier Transform) functionalities for GStreamer.
+    • libgstgl-1: Provides OpenGL functionalities for GStreamer.
+    • libgstnet-1: Provides network functionalities for GStreamer.
+    • libgstpbutils-1: Provides utility functions for GStreamer plugins.
+    • libgstphotography-1: Provides functionalities for handling photographic content in GStreamer.
+    • libgstreamer-1: Core GStreamer multimedia framework library for handling streaming data.
+    • libgstriff-1: GStreamer library for handling RIFF (Resource Interchange File Format) containers.
+    • libgstrtp-1: Provides Real-time Transport Protocol (RTP) support for GStreamer.
+    • libgstrtsp-1: Provides Real-time Streaming Protocol (RTSP) support for GStreamer.
+    • libgstsdp-1: Provides Session Description Protocol (SDP) support for GStreamer.
+    • libgsttag-1: Provides metadata tagging support for GStreamer.
+    • libgstvideo-1: Provides video processing functionalities for GStreamer.
+    • libgthread-2: Provides threading support for the GLib library.
+    • libgtk2: GTK+ 2.x library for creating graphical user interfaces.
+    • libgtk-3-0t64: GTK+ 3.x library for creating graphical user interfaces, 64-bit version.
+    • libgtk-3: GTK+ 3.x library for creating graphical user interfaces.
+    • libgtk-4: GTK+ 4.x library for creating modern graphical user interfaces.
+    • libgtk-layer-shell: Provides a library for integrating GTK+ applications with layer-shells, often used for window management.
+    • libgtkmm-3: C++ bindings for GTK+ 3.x.
+    • libgtksourceview-3: Provides a library for source code editing, part of the GTK+ ecosystem.
+    • libgtksourceview-4: Provides a library for source code editing, GTK+ 4.x version.
+    • libgtk-x11-2: GTK+ 2.x library with X11-specific functions.
+    • libgtop-2: Provides system monitoring functionalities, part of GNOME.
+    • libgucharmap_2_90: Provides Unicode character map functionalities for GNOME.
+    • libgudev-1: Provides device management functionalities for GNOME.
+    • libgusb: Provides a library for handling USB devices.
+    • libgutenprint: Provides drivers and utilities for Gutenprint, a high-quality printer driver.
+    • libgweather-4: Provides weather information functionalities for GNOME applications.
+    • libgxps: Provides support for XPS (XML Paper Specification) file format.
+    • libhandle: Provides functionalities for managing handles or resources, typically used in low-level programming.
+    • libhandy-1: Provides a library for creating adaptive user interfaces for GTK+.
+    • libharfbuzz-cairo: Provides HarfBuzz text shaping functionalities with Cairo integration.
+    • libharfbuzz-gobject: Provides HarfBuzz text shaping functionalities with GObject integration.
+    • libharfbuzz-icu: Provides HarfBuzz text shaping functionalities with ICU (International Components for Unicode) integration.
+    • libharfbuzz: Provides text shaping and font rendering functionalities.
+    • libharfbuzz-subset: Provides HarfBuzz functionalities for subsetting fonts.
+    • libheif: Provides functionalities for handling HEIF (High Efficiency Image File Format) files.
+    • libhistory: Provides command history functionalities, often used in shells and command-line applications.
+    • libhogweed: Provides cryptographic functions, part of the GNU Privacy Guard (GPG) suite.
+    • libhpdiscovery: Provides functions for discovering HP printer devices.
+    • libhpipp: Provides functions for interacting with HP printers using the IPP (Internet Printing Protocol).
+    • libhpip: Provides HP printer interaction functionalities.
+    • libhpmud: Provides USB support for HP printers.
+    • libhunspell-1: Provides spell-checking functionalities using the Hunspell library.
+    • libhwasan: Provides functions for hardware-assisted address sanitizer support.
+    • libhwy_contrib: Provides additional functionalities for the HWY library, which is a high-performance vectorization library.
+    • libhwy: Provides a high-performance vectorization library for data processing.
+    • libhwy_test: Provides test functionalities for the HWY library.
+    • libhyphen: Provides hyphenation functionalities for text processing.
+    • libI810XvMC: Provides XvMC (X Video Motion Compensation) support for Intel i810 graphics.
+    • libibus-1: Provides input method framework functionalities, used for multilingual text input.
+    • libibverbs: Provides a library for high-performance network communications.
+    • libical_cxx: C++ bindings for the iCal library, used for calendar functionalities.
+    • libical-glib: Provides GLib bindings for the iCal library.
+    • libical: Provides calendar and scheduling functionalities.
+    • libicalss_cxx: C++ bindings for the iCal library’s scheduling functionalities.
+    • libicalss: Provides scheduling functionalities for the iCal library.
+    • libicalvcal: Provides VCalendar functionalities for the iCal library.
+    • libICE: Provides Inter-Client Exchange (ICE) protocol functionalities for X11.
+    • libicudata: Part of ICU (International Components for Unicode), provides data access.
+    • libicui18n: Part of ICU, provides internationalization functionalities.
+    • libicuio: Part of ICU, provides I/O functionalities.
+    • libicutest: Part of ICU, provides testing functionalities.
+    • libicutu: Part of ICU, provides Unicode utilities.
+    • libicuuc: Part of ICU, provides Unicode and localization functionalities.
+    • libidn2: Provides support for Internationalized Domain Names (IDN).
+    • libidn: Provides support for Internationalized Domain Names (IDN).
+    • libiec61883: Provides support for IEC 61883 (firewire) for digital video and audio.
+    • libieee1284: Provides support for the IEEE 1284 parallel port standard.
+    • libIex-3_1: Provides support for image exchange (OpenEXR) libraries.
+    • libigdgmm: Provides Intel Graphics Data Management and Memory Management functionalities.
+    • libijs-0: Provides support for IJS (Inkjet Streaming Protocol) printers.
+    • libIlmThread-3_1: Provides threading support for OpenEXR.
+    • libimagequant: Provides a library for high-quality color quantization.
+    • libImath-3_1: Provides mathematical utilities, part of the OpenEXR library.
+    • libimobiledevice-1: Provides support for interfacing with iOS devices.
+    • libimobiledevice: Provides support for interfacing with iOS devices.
+    • libinih: Provides functions for handling INI configuration files.
+    • libinput: Provides input device handling functionalities for various hardware.
+    • libIntelXvMC: Provides XvMC (X Video Motion Compensation) support for Intel hardware.
+    • libip4tc: Provides functions for IPv4 network filtering and manipulation (iptables).
+    • libip6tc: Provides functions for IPv6 network filtering and manipulation (ip6tables).
+    • libipt: Provides functions for network packet filtering and manipulation.
+    • libirs-9: Provides DNS resolver functionalities (part of BIND).
+    • libisc-9: Provides DNS support functionalities (part of BIND).
+    • libisccc-9: Provides DNS client and communication functionalities (part of BIND).
+    • libisccfg-9: Provides DNS configuration functionalities (part of BIND).
+    • libisl: Provides an Intermediate Representation Library for GCC.
+    • libisofs: Provides ISO 9660 filesystem support.
+    • libitm: Provides functions for transactional memory support in GCC.
+    • libiw: Provides wireless network management functionalities.
+    • libjacknet: Provides networking support for JACK (Jack Audio Connection Kit).
+    • libjackserver: Provides server functionalities for JACK.
+    • libjack: Provides an API for audio processing, allowing low-latency audio routing.
+    • libjansson: Provides a C library for encoding, decoding, and manipulating JSON data.
+    • libjavascriptcoregtk-4: Provides the JavaScriptCore engine for GTK+ applications.
+    • libjbig2dec: Provides functions for decoding JBIG2 (Joint Bi-level Image Experts Group) compressed images.
+    • libjbig: Provides functions for decoding JBIG (Joint Bi-level Image Experts Group) compressed images.
+    • libjcat: Provides functions for handling JCAT (JPEG Compression Algorithm) metadata.
+    • libjpeg: Provides functionalities for handling JPEG (Joint Photographic Experts Group) image files.
+    • libjson-c: Provides a library for handling JSON data in C.
+    • libjson-glib-1: Provides JSON parsing and serialization for GLib-based applications.
+    • libjxl: Provides functionalities for handling JPEG XL (JPEG Extended) image files.
+    • libjxl_threads: Provides multi-threading support for JPEG XL.
+    • libk5crypto: Provides cryptographic functions for Kerberos.
+    • libkeybinder-3: Provides a library for binding global keyboard shortcuts in GTK+ applications.
+    • libkeyutils: Provides a library for managing kernel keyrings.
+    • libkmod: Provides tools and libraries for managing Linux kernel modules.
+    • libkpathsea: Provides functions for locating TeX-related files.
+    • libkrb5: Provides Kerberos 5 authentication functionalities.
+    • libkrb5support: Provides support functions for Kerberos 5.
+    • libksba: Provides a library for handling X.509 and CMS (Cryptographic Message Syntax) data.
+    • liblangtag: Provides a library for language tag parsing and manipulation.
+    • liblapack: Provides a library for linear algebra routines (e.g., solving systems of linear equations).
+    • liblapack_pic: Provides position-independent code for LAPACK.
+    • liblber: Provides Lightweight Directory Access Protocol (LDAP) library functionalities.
+    • liblbfgsb: Provides functions for solving large-scale optimization problems using the L-BFGS-B method.
+    • liblc3: Provides functionalities for handling LC3 (Low Complexity Communication Codec) audio codec.
+    • liblcms2: Provides color management functionalities using Little CMS version 2.
+    • libldacBT_abr: Provides functions for LDAC audio codec with Adaptive Bit Rate support.
+    • libldacBT_enc: Provides functions for LDAC audio codec with encoding support.
+    • libldap: Provides LDAP (Lightweight Directory Access Protocol) functionalities.
+    • libldb: Provides a library for handling LDB (LDAP Database) data.
+    • libLerc: Provides functionalities for LERC (Low-effort Robust Compression) image compression.
+    • liblightdm-gobject-1: Provides GObject bindings for LightDM, a display manager.
+    • liblilv-0: Provides a library for handling LV2 (LADSPA Version 2) plugins.
+    • liblirc_client: Provides functionalities for interfacing with LIRC (Linux Infrared Remote Control) clients.
+    • liblldb-18: Provides functionalities for the LLDB debugger.
+    • libLLVM-17: Provides functionalities for LLVM 17, a compiler infrastructure.
+    • libLLVM-18: Provides functionalities for LLVM 18, a compiler infrastructure.
+    • libLLVM: Provides core functionalities for LLVM compiler infrastructure.
+    • liblmdb: Provides functionalities for Lightning Memory-Mapped Database (LMDB).
+    • liblouis: Provides braille translation functionalities.
+    • liblouisutdml: Provides braille translation and format functionalities.
+    • liblsan: Provides leak sanitization functionalities for memory management.
+    • libltdl: Provides a library for dynamic loading of shared libraries.
+    • liblua5: Provides functionalities for the Lua scripting language.
+    • liblvm2cmd: Provides command-line tools for managing LVM (Logical Volume Manager).
+    • liblz4: Provides high-performance compression and decompression functionalities using the LZ4 algorithm.
+    • liblzma: Provides compression functionalities using the LZMA (Lempel-Ziv-Markov chain algorithm) algorithm.
+    • liblzo2: Provides compression functionalities using the LZO (Lempel-Ziv-Oberhumer) algorithm.
+    • libm-2: Provides standard mathematical functions.
+    • libm: Provides standard mathematical functions, typically part of the C library.
+    • libmagic: Provides file type identification functionalities based on magic numbers.
+    • libmalcontent-0: Provides functionalities for content moderation and detection.
+    • libmanette-0: Provides a library for managing menu items and menus in GNOME applications.
+    • libmate-desktop-2: Provides functionalities for the MATE desktop environment.
+    • libmate-menu: Provides menu functionalities for the MATE desktop environment.
+    • libmate-panel-applet-4: Provides support for MATE panel applets.
+    • libmateweather: Provides weather functionalities for the MATE desktop environment.
+    • libmaxminddb: Provides a library for handling MaxMind database formats.
+    • libmbedcrypto: Provides cryptographic functions used in mbed TLS.
+    • libmbim-glib: Provides a GLib-based library for handling MBIM (Mobile Broadband Interface Model) communications.
+    • libmcheck: Provides memory checking functionalities for C programs.
+    • libmd4c: Provides functions for parsing Markdown documents.
+    • libmd: Provides MD5 and other message-digest algorithms.
+    • libmemusage: Provides tools for tracking memory usage and leaks.
+    • libmenu: Provides functions for handling text-based menus, part of the ncurses library.
+    • libmenuw: Provides wide-character support for menus in the ncurses library.
+    • libmetacity: Provides libraries related to Metacity, the window manager used in GNOME 2.x.
+    • libmhash: Provides a library for hash algorithms, including MD5, SHA, and others.
+    • libminiupnpc: Provides functions for UPnP (Universal Plug and Play) NAT traversal.
+    • libminizip: Provides support for ZIP file handling.
+    • libmm-glib: Provides GLib-based API for the ModemManager library.
+    • libmnl: Provides a minimalistic netlink library for network management.
+    • libmount: Provides functions for managing mount points in the Linux kernel.
+    • libmozjs-115: Mozilla JavaScript Engine (SpiderMonkey) version 115.
+    • libmp3lame: Provides the LAME MP3 encoder library.
+    • libmpc: Provides a library for arbitrary precision complex numbers.
+    • libmpfr: Provides a library for multiple-precision floating-point computations.
+    • libmpg123: Provides an MPEG audio decoder library.
+    • libmpv: Provides the MPV media player library.
+    • libmsgraph-0: Provides functionalities for interacting with Microsoft Graph API.
+    • libmspub-0: Provides functionalities for handling Microsoft Publisher file formats.
+    • libmtdev: Provides a library for handling multi-touch devices.
+    • libmtp: Provides a library for Media Transfer Protocol (MTP) devices.
+    • libmuffin: Provides functionalities for the Muffin window manager (used in Linux Mint).
+    • libmujs: Provides a lightweight JavaScript interpreter library.
+    • libmusicbrainz5cc: Provides C++ bindings for MusicBrainz library version 5.
+    • libmusicbrainz5: Provides functionalities for the MusicBrainz library.
+    • libmvec: Provides optimized vector math functions.
+    • libmwaw-0: Provides a library for reading old Microsoft Word file formats.
+    • libmysofa: Provides functionalities for handling 3D audio spatialization using the SOFA (Spatially Oriented Format for Acoustics) format.
+    • libmythes-1: Provides a library for handling the Myths thesaurus.
+    • libnatpmp: Provides NAT Port Mapping Protocol functionalities.
+    • libnautilus-extension: Provides extensions for the Nautilus file manager.
+    • libncurses++: Provides C++ bindings for the ncurses library.
+    • libncurses: Provides functions for text-based user interfaces and terminal handling.
+    • libncurses++w: Provides wide-character support for C++ bindings of the ncurses library.
+    • libncursesw: Provides wide-character support for the ncurses library.
+    • libndp: Provides a library for Neighbor Discovery Protocol (NDP) functionalities.
+    • libndr-krb5pac: Provides functionalities for handling Kerberos PAC (Privilege Attribute Certificate).
+    • libndr-nbt: Provides functionalities for NetBIOS over TCP/IP (NBT) protocols.
+    • libndr: Provides functionalities for handling various Network Data Representation (NDR) protocols.
+    • libndr-standard: Provides standard NDR protocols and definitions.
+    • libnemo-extension: Provides extensions for the Nemo file manager (used in Linux Mint).
+    • libneon-gnutls: Provides an HTTP and WebDAV client library with GNUTLS support.
+    • libnetapi: Provides functionalities for network API interactions.
+    • libnetfilter_conntrack: Provides functions for connection tracking in Netfilter (firewall framework).
+    • libnetplan: Provides a configuration library for network management in Netplan.
+    • libnetsnmpagent: Provides SNMP (Simple Network Management Protocol) agent functionalities.
+    • libnetsnmphelpers: Provides helper functions for SNMP operations.
+    • libnetsnmpmibs: Provides MIBs (Management Information Bases) for SNMP.
+    • libnetsnmp: Provides core SNMP functionalities.
+    • libnettle: Provides cryptographic functions including hash and encryption algorithms.
+    • libnewt: Provides a library for creating text-mode user interfaces.
+    • libnfnetlink: Provides a library for netfilter-related functionalities.
+    • libnfs: Provides a library for interacting with Network File System (NFS).
+    • libnftables: Provides functionalities for managing and configuring nftables (firewall).
+    • libnftnl: Provides netlink library for nftables.
+    • libnghttp2: Provides a library for HTTP/2 protocol support.
+    • libnl-3: Provides a library for working with netlink sockets in Linux.
+    • libnl-genl-3: Provides generic netlink support for the libnl library.
+    • libnl-route-3: Provides routing functionalities for the libnl library.
+    • libnma-gtk4: Provides GTK+ 4.x bindings for NetworkManager Applet.
+    • libnma: Provides functionalities for NetworkManager Applet.
+    • libnm: Provides core NetworkManager functionalities.
+    • libnorm: Provides functionalities for the NORM (NACK-Oriented Reliable Multicast) protocol.
+    • libnotify: Provides desktop notification functionalities.
+    • libnpth: Provides a library for managing POSIX thread-related functionalities.
+    • libns-9: Provides functionalities for the BIND DNS server version 9.
+    • libnsl: Provides network services library functions, including NIS and NFS.
+    • libnspr4: Provides the Netscape Portable Runtime library.
+    • libnss3: Provides Network Security Services (NSS) library for cryptographic operations.
+    • libnssckbi: Provides certificates and other crypto-related data for NSS.
+    • libnss_compat: Provides compatibility functions for older NSS versions.
+    • libnssdbm3: Provides DBM (Database Manager) functionalities for NSS.
+    • libnss_dns: Provides DNS resolver functionalities for NSS.
+    • libnss_files: Provides file-based resolver functionalities for NSS.
+    • libnss_hesiod: Provides Hesiod (a DNS-based directory service) functionalities for NSS.
+    • libnss_mdns4_minimal: Provides minimal mDNS (multicast DNS) resolver functionalities for NSS.
+    • libnss_mdns4: Provides mDNS resolver functionalities for NSS.
+    • libnss_mdns6_minimal: Provides minimal IPv6 mDNS resolver functionalities for NSS.
+    • libnss_mdns6: Provides IPv6 mDNS resolver functionalities for NSS.
+    • libnss_mdns_minimal: Provides minimal mDNS resolver functionalities for NSS.
+    • libnss_mdns: Provides mDNS resolver functionalities for NSS.
+    • libnss_myhostname: Provides hostname resolution functionalities for NSS.
+    • libnss_systemd: Provides systemd integration for NSS.
+    • libnssutil3: Provides NSS utility functions.
+    • libntfs-3g: Provides read/write support for NTFS file systems.
+    • libnuma: Provides functions for NUMA (Non-Uniform Memory Access) memory management.
+    • libnvme-mi: Provides support for NVMe (Non-Volatile Memory Express) Management Interface.
+    • libnvme: Provides support for NVMe devices.
+    • libnvpair: Provides a library for managing key-value pairs, often used in ZFS.
+    • libobjc_gc: Provides garbage collection functionalities for Objective-C.
+    • libobjc: Provides the runtime library for Objective-C programming language.
+    • libodfgen-0: Provides functionalities for generating OpenDocument Format (ODF) files.
+    • libogg: Provides support for the Ogg container format.
+    • libopcodes-2: Provides machine code opcodes functionalities for disassembling and assembling.
+    • libopenal: Provides support for 3D audio and spatial sound.
+    • libOpenCL: Provides support for the OpenCL (Open Computing Language) standard.
+    • libOpenEXR-3_1: Provides support for OpenEXR image format version 3.1.
+    • libOpenEXRCore-3_1: Provides core functionalities for OpenEXR version 3.1.
+    • libOpenEXRUtil-3_1: Provides utility functions for OpenEXR version 3.1.
+    • libOpenGL: Provides functionalities for 3D graphics rendering using the OpenGL API.
+    • libopenjp2: Provides support for the JPEG 2000 image format.
+    • libopenmpt: Provides support for various module music formats.
+    • libopus: Provides support for the Opus audio codec.
+    • liborc-0: Provides functionalities for optimizing data processing tasks.
+    • liborc-test-0: Provides testing functionalities for the Orc library.
+    • liborcus-0: Provides a library for parsing and manipulating spreadsheet files.
+    • liborcus-parser-0: Provides functionalities for parsing spreadsheet formats.
+    • libostree-1: Provides an object store for managing and deploying Linux system updates.
+    • libp11-kit: Provides support for PKCS#11 (Cryptographic Token Interface) standards.
+    • libpackagekit-glib2: Provides a GLib-based API for PackageKit.
+    • libpagemaker-0: Provides functionalities for handling PageMaker file formats.
+    • libpamc: Provides PAM (Pluggable Authentication Module) common functions.
+    • libpam_misc: Provides miscellaneous utilities for PAM.
+    • libpam: Provides the PAM authentication framework.
+    • libpanel: Provides functions for handling text-based panels, part of ncurses.
+    • libpanelw: Provides wide-character support for text-based panels, part of ncurses.
+    • libpango-1: Provides layout and rendering functionalities for text in GTK applications.
+    • libpangocairo-1: Provides Pango text layout functionalities using Cairo.
+    • libpangoft2-1: Provides Pango text layout functionalities using FreeType.
+    • libpangomm-1: Provides C++ bindings for the Pango text layout library.
+    • libpangoxft-1: Provides Pango text layout functionalities using Xft.
+    • libpaper: Provides functionalities for managing printer paper sizes.
+    • libparted: Provides a library for disk partition management.
+    • libpcap: Provides a library for packet capture and network traffic analysis.
+    • libpcaudio: Provides functionalities for handling PC audio devices.
+    • libpciaccess: Provides functions for accessing PCI hardware.
+    • libpci: Provides PCI bus access and management functionalities.
+    • libpcprofile: Provides functions for profiling and monitoring program execution.
+    • libpcre2-16: Provides a library for Perl-compatible regular expressions, with 16-bit Unicode support.
+    • libpcre2-32: Provides a library for Perl-compatible regular expressions, with 32-bit Unicode support.
+    • libpcre2-8: Provides a library for Perl-compatible regular expressions, with 8-bit Unicode support.
+    • libpcre2-posix: Provides POSIX-compatible regular expression functions using PCRE2.
+    • libpcsclite: Provides functionalities for smart card reader interactions.
+    • libpeas-1: Provides a library for extensible plugin management.
+    • libpeas-gtk-1: Provides GTK+ 3.x bindings for the Peas plugin library.
+    • libperl: Provides the Perl runtime library.
+    • libpgm-5: Provides support for the Pragmatic General Multicast (PGM) protocol.
+    • libphonenumber: Provides parsing and formatting functionalities for phone numbers.
+    • libpipeline: Provides a library for managing process pipelines.
+    • libpipewire-0: Provides multimedia processing and routing functionalities.
+    • libpixman-1: Provides a library for pixel manipulation and rendering.
+    • libpkcs11-helper: Provides a library for PKCS#11 cryptographic token management.
+    • libpkgconf: Provides a library for managing package configurations.
+    • libplacebo: Provides a high-performance, cross-platform video processing library.
+    • libplc4: Provides support for PL/SQL (Procedural Language/Structured Query Language) compatibility.
+    • libplds4: Provides support for PL/SQL (Procedural Language/Structured Query Language) compatibility.
+    • libplist-2: Provides support for Apple Property List format parsing.
+    • libply-boot-client: Provides functionalities for boot-time display using Plymounth.
+    • libply: Provides a library for Plymouth, the boot splash screen system.
+    • libply-splash-core: Provides core functionalities for Plymouth splash screens.
+    • libply-splash-graphics: Provides graphics functionalities for Plymouth splash screens.
+    • libpng16: Provides a library for handling PNG image files.
+    • libpng: Provides a library for handling PNG image files (older version).
+    • libpocketsphinx: Provides functionalities for the PocketSphinx speech recognition library.
+    • libpolkit-agent-1: Provides functionalities for PolicyKit authentication agents.
+    • libpolkit-gobject-1: Provides GObject bindings for PolicyKit.
+    • libpoppler-cpp: Provides C++ bindings for the Poppler PDF rendering library.
+    • libpoppler-glib: Provides GLib bindings for the Poppler PDF rendering library.
+    • libpoppler: Provides a library for rendering PDF documents.
+    • libpopt: Provides a library for parsing command-line options.
+    • libportaudio: Provides a library for cross-platform audio I/O.
+    • libpostproc: Provides post-processing functionalities for video decoding.
+    • libppd: Provides a library for handling PostScript Printer Description (PPD) files.
+    • libproc2: Provides functionalities for process information and management.
+    • libprotobuf-c: Provides C bindings for Google Protocol Buffers.
+    • libprotobuf: Provides Google's Protocol Buffers library for data serialization.
+    • libproxy: Provides a library for proxy configuration and handling.
+    • libpsl: Provides support for Public Suffix List (PSL) operations.
+    • libpspell: Provides a library for spell-checking functionalities.
+    • libpsx: Provides functionalities related to the PlayStation Portable (PSP) development.
+    • libpthread: Provides POSIX thread functionalities.
+    • libpthread_nonshared: Provides thread-related functionalities, non-shared version.
+    • libpugixml: Provides a library for parsing and manipulating XML documents.
+    • libpulse-mainloop-glib: Provides PulseAudio mainloop integration with GLib.
+    • libpulse-simple: Provides simplified PulseAudio API for audio input/output.
+    • libpulse: Provides core PulseAudio functionalities for sound management.
+    • libpwquality: Provides password quality checking and enforcement functionalities.
+    • libpyldb-util: Provides utilities for managing and interacting with LDAP directories in Python.
+    • libpytalloc-util: Provides utilities for managing memory in Talloc.
+    • libpython3: Provides the Python 3.x runtime library.
+    • libqhull_r: Provides the Qhull library for computing convex hulls, Delaunay triangulations, and Voronoi diagrams.
+    • libqmi-glib: Provides a GLib-based library for managing mobile broadband devices using the Qualcomm MSM Interface (QMI).
+    • libqpdf: Provides a library for manipulating PDF files.
+    • libqrtr-glib: Provides GLib bindings for Qualcomm's QRTR (QRTR protocol).
+    • libQt5Charts: Provides functionalities for charting and data visualization in Qt applications.
+    • libQt5Core: Provides core non-GUI functionalities for Qt applications.
+    • libQt5DBus: Provides support for D-Bus IPC (inter-process communication) in Qt applications.
+    • libQt5Designer: Provides functionalities for Qt Designer, the tool for designing Qt GUIs.
+    • libQt5EglFSDeviceIntegration: Provides support for EGLFS (EGL Full Screen) device integration in Qt applications.
+    • libQt5EglFsKmsSupport: Provides support for KMS (Kernel Mode Setting) in EGLFS for Qt applications.
+    • libQt5Gui: Provides GUI functionalities for Qt applications, including graphics and windowing support.
+    • libQt5Help: Provides support for Qt Help System.
+    • libQt5Location: Provides support for location services in Qt applications.
+    • libQt5Multimedia: Provides multimedia functionalities, including audio and video support, in Qt applications.
+    • libQt5MultimediaWidgets: Provides multimedia widgets for Qt applications.
+    • libQt5Network: Provides networking functionalities for Qt applications.
+    • libQt5OpenGL: Provides support for OpenGL in Qt applications.
+    • libQt5PositioningQuick: Provides quick components for positioning and mapping in Qt applications.
+    • libQt5Positioning: Provides positioning and map functionalities in Qt applications.
+    • libQt5PrintSupport: Provides printing functionalities in Qt applications.
+    • libQt5QmlModels: Provides support for QML models in Qt applications.
+    • libQt5Qml: Provides support for QML, the Qt Meta-Object Language, used for designing user interfaces.
+    • libQt5Quick: Provides support for Qt Quick, a framework for building fluid, animated user interfaces.
+    • libQt5QuickWidgets: Provides support for integrating Qt Quick widgets into traditional Qt widgets.
+    • libQt5RemoteObjects: Provides functionalities for inter-process communication using Qt Remote Objects.
+    • libQt5Sensors: Provides support for sensor devices in Qt applications.
+    • libQt5SerialPort: Provides serial port functionalities for Qt applications.
+    • libQt5Sql: Provides support for SQL databases in Qt applications.
+    • libQt5Svg: Provides support for SVG (Scalable Vector Graphics) in Qt applications.
+    • libQt5Test: Provides support for unit testing in Qt applications.
+    • libQt5TextToSpeech: Provides text-to-speech functionalities in Qt applications.
+    • libQt5WebChannel: Provides support for Qt WebChannel, a framework for communication between QML and JavaScript.
+    • libQt5WebEngineCore: Provides core functionalities for Qt WebEngine, a web rendering engine.
+    • libQt5WebEngine: Provides web rendering functionalities for Qt applications, based on the Chromium project.
+    • libQt5WebEngineWidgets: Provides web rendering widgets for Qt applications.
+    • libQt5WebKit: Provides support for the WebKit rendering engine in Qt applications.
+    • libQt5WebKitWidgets: Provides widgets for integrating WebKit into Qt applications.
+    • libQt5WebSockets: Provides support for WebSockets in Qt applications.
+    • libQt5Widgets: Provides support for Qt Widgets, a library for creating desktop GUI applications.
+    • libQt5XcbQpa: Provides XCB (X protocol C-language Binding) integration for Qt applications.
+    • libQt5XmlPatterns: Provides support for XML pattern matching and querying in Qt applications.
+    • libQt5Xml: Provides XML parsing and manipulation functionalities for Qt applications.
+    • libquadmath: Provides support for quad-precision floating-point arithmetic.
+    • librabbitmq: Provides a C library for interacting with RabbitMQ, a message broker.
+    • libraptor2: Provides RDF (Resource Description Framework) parsing and serialization functionalities.
+    • libraqm: Provides support for text layout in complex scripts (e.g., Arabic, Hebrew) in RAQM.
+    • librasqal: Provides RDF query engine functionalities.
+    • librav1e: Provides an AV1 video encoder library.
+    • libraw1394: Provides support for IEEE 1394 (FireWire) in C.
+    • libraw_r: Provides support for RAW image formats, with thread-safe functionalities.
+    • libraw: Provides support for RAW image formats.
+    • librda: Provides support for RDA (Raspberry Digital Assistant) functionalities.
+    • librdf: Provides an API for manipulating RDF data.
+    • libre2: Provides a library for regular expression processing.
+    • libreadline: Provides GNU Readline library for command-line editing and history.
+    • libreiserfscore: Provides the core functionalities for the ReiserFS file system.
+    • libresolv: Provides resolver library for DNS (Domain Name System) lookups.
+    • librest-1: Provides REST (Representational State Transfer) client functionalities for GLib.
+    • librevenge-0: Provides functionalities for processing office documents (e.g., LibreOffice formats).
+    • librevenge-generators-0: Provides generator functionalities for LibreOffice file formats.
+    • librevenge-stream-0: Provides streaming functionalities for LibreOffice file formats.
+    • librhythmbox-core: Provides core functionalities for the Rhythmbox music player.
+    • librist: Provides support for RIST (Reliable Internet Stream Transport) protocol.
+    • libroc: Provides functionalities for handling remote operations and communications.
+    • librom1394: Provides support for IEEE 1394 (FireWire) in C.
+    • librsvg-2: Provides support for rendering SVG (Scalable Vector Graphics) files.
+    • librt: Provides real-time extensions to standard C library functionalities.
+    • librtmp: Provides support for RTMP (Real-Time Messaging Protocol) streaming.
+    • librubberband: Provides time-stretching and pitch-shifting functionalities.
+    • libsamba-credentials: Provides functionalities for handling Samba credentials.
+    • libsamba-errors: Provides error handling functionalities for Samba.
+    • libsamba-hostconfig: Provides host configuration functionalities for Samba.
+    • libsamba-passdb: Provides password database functionalities for Samba.
+    • libsamba-policy: Provides policy functionalities for Samba.
+    • libsamba-util: Provides utility functions for Samba.
+    • libsamdb: Provides functionalities for Samba Active Directory Domain Services (AD DS).
+    • libsamplerate: Provides sample rate conversion functionalities.
+    • libsane: Provides Scanner Access Now Easy (SANE) functionalities for image scanners.
+    • libsasl2: Provides Simple Authentication and Security Layer (SASL) functionalities.
+    • libsass: Provides a C/C++ library for compiling Sass (Syntactically Awesome Style Sheets) to CSS.
+    • libsbc: Provides Bluetooth SBC (Subband Coding) codec support.
+    • libSDL2-2: Provides the Simple DirectMedia Layer (SDL) for handling multimedia and games.
+    • libseccomp: Provides a library for controlling access to system calls in Linux.
+    • libsecret-1: Provides a library for storing and retrieving sensitive data such as passwords.
+    • libselinux: Provides functionalities for SELinux (Security-Enhanced Linux) policy management.
+    • libsemanage: Provides SELinux policy management utilities.
+    • libsensors: Provides hardware sensor monitoring functionalities.
+    • libsepol: Provides SELinux policy manipulation functionalities.
+    • libserd-0: Provides a library for RDF syntax parsing.
+    • libserf-1: Provides a library for HTTP/HTTPS client functionalities.
+    • libsframe: Provides functionalities for handling SFrame, a format for secure messaging.
+    • libsgutils2-1: Provides utilities for handling SCSI devices and commands.
+    • libsharpyuv: Provides functionalities for the libuv library with Sharp integration.
+    • libshine: Provides an MP3 encoding library.
+    • libshout: Provides a library for streaming audio to an Icecast server.
+    • libsigc-2: Provides a C++ library for signal/slot programming.
+    • libsixel: Provides a library for handling SIXEL graphics.
+    • libslang: Provides a library for creating text-based user interfaces.
+    • libsmartcols: Provides functionalities for handling column alignment in terminal output.
+    • libsmbclient: Provides a library for accessing SMB/CIFS resources.
+    • libsmbconf: Provides configuration functionalities for Samba.
+    • libsmbldap: Provides LDAP functionalities for Samba.
+    • libsmime3: Provides support for S/MIME (Secure/Multipurpose Internet Mail Extensions) cryptographic protocols.
+    • libSM: Provides support for the X Window System session management.
+    • libsnapd-glib-2: Provides GLib bindings for Snapd, the Snap package management system.
+    • libsnappy: Provides a fast compression library.
+    • libsndfile: Provides a library for reading and writing sound files.
+    • libsndio: Provides a library for handling audio I/O.
+    • libsnmp: Provides a library for Simple Network Management Protocol (SNMP) operations.
+    • libsodium: Provides a library for modern cryptographic operations.
+    • libsoftokn3: Provides a library for managing software cryptographic tokens.
+    • libsonic: Provides functionalities for audio processing, such as time-stretching and pitch-shifting.
+    • libsord-0: Provides RDF (Resource Description Framework) data manipulation functionalities.
+    • libsoup-2: Provides an HTTP library for GNOME.
+    • libsoup-3: Provides a newer version of the HTTP library for GNOME.
+    • libsoup-gnome-2: Provides GNOME integration for the Soup HTTP library.
+    • libsource-highlight: Provides syntax highlighting functionalities for source code.
+    • libsoxr: Provides a high-quality sample rate conversion library.
+    • libspatialindex_c: Provides C bindings for the SpatialIndex library used for spatial data indexing.
+    • libspatialindex: Provides a library for spatial data indexing.
+    • libspectre: Provides a library for handling PostScript documents.
+    • libspeechd: Provides a library for speech synthesis and speech recognition.
+    • libspeexdsp: Provides digital signal processing functionalities for the Speex codec.
+    • libspeex: Provides functionalities for the Speex audio codec.
+    • libsphinxad: Provides support for the Sphinx speech recognition system.
+    • libsphinxbase: Provides basic functionalities for the Sphinx speech recognition system.
+    • libsqlite3: Provides a library for SQL database management using SQLite.
+    • libsratom-0: Provides a library for handling RDF data used in audio plugins.
+    • libsrt-gnutls: Provides secure streaming functionalities using SRT (Secure Reliable Transport) with GnuTLS.
+    • libssh-gcrypt: Provides a library for SSH (Secure Shell) using the Gcrypt library for cryptographic operations.
+    • libssh: Provides a library for SSH (Secure Shell) protocols.
+    • libssl3: Provides the OpenSSL library for secure communications.
+    • libssl: Provides a library for SSL/TLS cryptographic protocols (often part of OpenSSL).
+    • libss: Provides functionalities for handling storage subsystem utilities.
+    • libstartup-notification-1: Provides support for startup notifications in desktop environments.
+    • libstdc++: Provides the GNU Standard C++ Library.
+    • libstemmer: Provides a library for stemming (reducing words to their base form).
+    • libsuitesparseconfig: Provides configuration functionalities for the SuiteSparse library suite.
+    • libsvn_auth_gnome_keyring-1: Provides GNOME Keyring support for Subversion authentication.
+    • libsvn_auth_kwallet-1: Provides KWallet support for Subversion authentication.
+    • libsvn_client-1: Provides functionalities for Subversion client operations.
+    • libsvn_delta-1: Provides functionalities for Subversion delta operations.
+    • libsvn_diff-1: Provides functionalities for Subversion diff operations.
+    • libsvn_fs-1: Provides functionalities for Subversion file systems.
+    • libsvn_fs_base-1: Provides base functionalities for Subversion file systems.
+    • libsvn_fs_fs-1: Provides functionalities for the FSFS (Filesystem) backend of Subversion.
+    • libsvn_fs_util-1: Provides utilities for managing Subversion file systems.
+    • libsvn_fs_x-1: Provides functionalities for the FSX (Filesystem X) backend of Subversion.
+    • libsvn_ra-1: Provides functionalities for Subversion remote access (RA) operations.
+    • libsvn_ra_local-1: Provides local RA support for Subversion.
+    • libsvn_ra_serf-1: Provides Serf-based RA support for Subversion.
+    • libsvn_ra_svn-1: Provides SVN (Subversion) RA support.
+    • libsvn_repos-1: Provides functionalities for Subversion repository operations.
+    • libsvn_subr-1: Provides Subversion support for various low-level operations.
+    • libsvn_wc-1: Provides functionalities for Subversion working copy operations.
+    • libSvtAv1Enc: Provides an AV1 video encoder library from the SVT-AV1 project.
+    • libswresample: Provides audio resampling functionalities for FFmpeg.
+    • libswscale: Provides video scaling and format conversion functionalities for FFmpeg.
+    • libsystemd: Provides core functionalities for the systemd system and service manager.
+    • libtag: Provides functionalities for manipulating audio metadata tags.
+    • libtalloc: Provides a hierarchical, reference-counted memory pool system.
+    • libtasn1: Provides a library for ASN.1 (Abstract Syntax Notation One) parsing and encoding.
+    • libtcl8: Provides the Tcl scripting language library.
+    • libtcmalloc_minimal_debug: Provides a minimal, debug-enabled version of Google's TCMalloc memory allocator.
+    • libtcmalloc_minimal: Provides a minimal version of Google's TCMalloc memory allocator.
+    • libtdb: Provides a database library for storing and managing key-value pairs.
+    • libteamdctl: Provides functionalities for managing network teaming.
+    • libtermcap: Provides terminal handling capabilities, similar to ncurses.
+    • libtevent: Provides an event handling library used by Samba and other software.
+    • libtevent-util: Provides utility functions for the Tevent event library.
+    • libthai: Provides support for Thai language text processing.
+    • libtheoradec: Provides a library for decoding Theora video format.
+    • libtheoraenc: Provides a library for encoding Theora video format.
+    • libtheora: Provides support for Theora video format.
+    • libthread_db: Provides support for debugging threads in various environments.
+    • libtic: Provides functionalities related to terminal interface control.
+    • libtiff: Provides functionalities for handling TIFF (Tagged Image File Format) images.
+    • libtiffxx: Provides C++ bindings for the TIFF library.
+    • libtimezonemap: Provides functionalities for managing time zone data.
+    • libtinfo: Provides support for the ncurses library, including terminal handling functionalities.
+    • libtinyxml: Provides a lightweight XML parser library.
+    • libtirpc: Provides RPC (Remote Procedure Call) library for network communications.
+    • libtk8: Provides the Tk toolkit for graphical user interfaces, part of the Tcl/Tk library.
+    • libtotem-plparser-mini: Provides a minimal version of the Totem playlist parser library.
+    • libtotem-plparser: Provides the Totem playlist parser library for handling media playlists.
+    • libtsan: Provides a library for detecting data races in multithreaded programs (ThreadSanitizer).
+    • libtspi: Provides support for the Trusted Platform Module (TPM) software stack.
+    • libtss2-esys: Provides TSS (Trusted Software Stack) 2.0 functionalities for TPM.
+    • libtss2-mu: Provides TSS (Trusted Software Stack) 2.0 Message Utilities for TPM.
+    • libtss2-sys: Provides TSS (Trusted Software Stack) 2.0 System API for TPM.
+    • libtss2-tcti-cmd: Provides TSS (Trusted Software Stack) 2.0 TCTI (Transport Layer) for command-based TPM communication.
+    • libtss2-tcti-device: Provides TSS (Trusted Software Stack) 2.0 TCTI for device-based TPM communication.
+    • libtss2-tcti-mssim: Provides TSS (Trusted Software Stack) 2.0 TCTI for the TPM software simulator.
+    • libtss2-tcti-swtpm: Provides TSS (Trusted Software Stack) 2.0 TCTI for the software TPM emulator.
+    • libtwolame: Provides an MP2 encoder library.
+    • libubsan: Provides support for Undefined Behavior Sanitizer (UBSan), a runtime check for undefined behaviors.
+    • libuchardet: Provides a library for character encoding detection.
+    • libudev: Provides functionalities for interacting with device events in Linux.
+    • libudfread: Provides a library for reading UDF (Universal Disk Format) file systems.
+    • libudisks2: Provides a library for managing disks and storage devices.
+    1. libulockmgr: Provides a library for managing locks in a distributed environment.
+    2. libunibreak: Provides a library for Unicode text segmentation and line breaking.
+    3. libunistring: Provides a library for Unicode string handling.
+    4. libuno_cppuhelpergcc3: Provides helper functions for C++ and UNO (Universal Network Objects) in LibreOffice.
+    5. libuno_cppu: Provides C++ helper functions for UNO in LibreOffice.
+    6. libuno_purpenvhelpergcc3: Provides helper functions for UNO in LibreOffice.
+    7. libuno_salhelpergcc3: Provides helper functions for the UNO SAL (System Abstraction Layer).
+    8. libuno_sal: Provides the UNO SAL (System Abstraction Layer) library.
+    9. libunwind-coredump: Provides support for unwinding stack frames from core dumps.
+    10. libunwind-ptrace: Provides stack unwinding support via the ptrace interface.
+    11. libunwind: Provides stack unwinding support for exception handling and debugging.
+    12. libunwind-x86_64: Provides x86_64-specific stack unwinding support.
+    13. libupower-glib: Provides GLib bindings for UPower, a power management library.
+    14. liburcu-bp: Provides the BP (Batch Processing) variant of the Userspace RCU (Read-Copy-Update) library.
+    15. liburcu-cds: Provides the CDS (Classic Double-Check) variant of the Userspace RCU library.
+    16. liburcu-common: Provides common functionalities for the Userspace RCU library.
+    17. liburcu-mb: Provides the MB (Multi-Consumer) variant of the Userspace RCU library.
+    18. liburcu-memb: Provides the MEMB (Memory Barrier) variant of the Userspace RCU library.
+    19. liburcu-qsbr: Provides the QSBR (Quiescent State-Based Reclamation) variant of the Userspace RCU library.
+    20. liburcu-signal: Provides the signal-based variant of the Userspace RCU library.
+    21. liburing: Provides a library for Linux io_uring, a mechanism for asynchronous I/O operations.
+    22. liburing-ffi: Provides FFI (Foreign Function Interface) bindings for liburing.
+    23. libusb-1: Provides a library for USB (Universal Serial Bus) device handling.
+    24. libusbmuxd-2: Provides USB multiplexing daemon for managing connections with Apple devices.
+    25. libusbmuxd: Provides USB multiplexing daemon for managing connections with Apple devices.
+    26. libutempter: Provides a library for handling temporary user terminal files.
+    27. libutf8proc: Provides Unicode text processing functionalities.
+    28. libutil: Provides various utility functions for system programming.
+    29. libuuid: Provides functions for generating and working with UUIDs (Universally Unique Identifiers).
+    30. libuutil: Provides utilities for managing system resources.
+    31. libuv: Provides a multi-platform support library with a focus on asynchronous I/O.
+    32. libv4l: Provides a library for video4linux APIs.
+    33. libv4l1: Provides legacy video4linux API support.
+    34. libv4l2: Provides support for the video4linux2 API.
+    35. libv4lconvert0: Provides library for video4linux conversion.
+    36. libv4lconvert: Provides video4linux conversion functionalities.
+    37. libva-drm: Provides Direct Rendering Manager (DRM) support for VA (Video Acceleration API).
+    38. libva: Provides Video Acceleration API (VA) functionalities.
+    39. libva-wayland: Provides Wayland support for VA (Video Acceleration API).
+    40. libva-x11: Provides X11 support for VA (Video Acceleration API).
+    41. libvdpau: Provides Video Decode and Presentation API for Unix (VDPAU) support.
+    42. libvidstab: Provides video stabilization library.
+    43. libvisio-0: Provides a library for handling Visio file formats.
+    44. libvisual-0: Provides a library for audio-visual processing.
+    45. libVkLayer_INTEL_nullhw: Provides an Intel-specific Vulkan layer for null hardware.
+    46. libVkLayer_MESA_device_select: Provides a Mesa Vulkan layer for device selection.
+    47. libVkLayer_MESA_overlay: Provides a Mesa Vulkan layer for overlay support.
+    48. libvolume_key: Provides a library for handling encrypted volumes.
+    49. libvorbisenc: Provides an encoder library for the Vorbis audio codec.
+    50. libvorbisfile: Provides a file interface library for Vorbis audio codec.
+    51. libvorbis: Provides the Vorbis audio codec library.
+    52. libvpl: Provides a library for Video Processing Library (VPL).
+    53. libvpx: Provides the VP8 and VP9 video codec library.
+    54. libvte-2: Provides a terminal emulator library.
+    55. libvulkan_intel_hasvk: Provides Vulkan support for Intel hardware with HASVK.
+    56. libvulkan_intel: Provides Vulkan support for Intel hardware.
+    57. libvulkan_lvp: Provides Vulkan support for LVP (Lunar Vulkan Project).
+    58. libvulkan_radeon: Provides Vulkan support for AMD Radeon hardware.
+    59. libvulkan: Provides Vulkan API support.
+    60. libvulkan_virtio: Provides Vulkan support for Virtio devices.
+    61. libwacom: Provides a library for handling Wacom tablet devices.
+    62. libwavpack: Provides a library for the WavPack audio codec.
+    63. libwayland-client: Provides client-side support for the Wayland display server protocol.
+    64. libwayland-cursor: Provides cursor handling support for Wayland.
+    65. libwayland-egl: Provides EGL (Embedded-System Graphics Library) support for Wayland.
+    66. libwayland-server: Provides server-side support for the Wayland display server protocol.
+    67. libwbclient: Provides a library for Samba client functions.
+    68. libwebkit2gtk-4: Provides the WebKit2GTK web rendering engine for GTK.
+    69. libwebp: Provides support for the WebP image format.
+    70. libwebpdecoder: Provides decoding functionalities for WebP images.
+    71. libwebpdemux: Provides demuxing functionalities for WebP images.
+    72. libwebpmux: Provides muxing functionalities for WebP images.
+    73. libwebrtc_audio_processing: Provides audio processing functionalities for WebRTC.
+    74. libwireplumber-0: Provides a library for WirePlumber, a multimedia session manager.
+    75. libwmf-0: Provides a library for handling Windows Metafiles (WMF).
+    76. libwmflite-0: Provides a lightweight version of the WMF library.
+    77. libwnck-3: Provides a library for managing and interacting with window managers in GNOME.
+    78. libwoff2common: Provides common functionalities for WOFF2 font format handling.
+    79. libwoff2dec: Provides WOFF2 font format decoding functionalities.
+    80. libwoff2enc: Provides WOFF2 font format encoding functionalities.
+    81. libwpd-0: Provides a library for handling WordPerfect document formats.
+    82. libwpg-0: Provides a library for handling WordPerfect graphics.
+    83. libwps-0: Provides a library for handling WordPerfect documents.
+    84. libwrap: Provides support for TCP Wrappers for network access control.
+    85. libwx_baseu-3: Provides the base library for wxWidgets with Unicode support.
+    86. libwx_baseu_net-3: Provides networking support for wxWidgets with Unicode support.
+    87. libwx_baseu_xml-3: Provides XML support for wxWidgets with Unicode support.
+    88. libwx_gtk3u_adv-3: Provides advanced widgets for wxWidgets with GTK3 support.
+    89. libwx_gtk3u_aui-3: Provides AUI (Advanced User Interface) support for wxWidgets with GTK3.
+    90. libwx_gtk3u_core-3: Provides core functionalities for wxWidgets with GTK3 support.
+    91. libwx_gtk3u_html-3: Provides HTML support for wxWidgets with GTK3.
+    92. libwx_gtk3u_propgrid-3: Provides property grid functionalities for wxWidgets with GTK3.
+    93. libwx_gtk3u_qa-3: Provides quality assurance functionalities for wxWidgets with GTK3.
+    94. libwx_gtk3u_ribbon-3: Provides ribbon interface support for wxWidgets with GTK3.
+    95. libwx_gtk3u_richtext-3: Provides rich text support for wxWidgets with GTK3.
+    96. libwx_gtk3u_stc-3: Provides Scintilla Text Control support for wxWidgets with GTK3.
+    97. libwx_gtk3u_xrc-3: Provides XRC (XML Resource) support for wxWidgets with GTK3.
+    98. libX11: Provides core X11 protocol library.
+    99. libX11-xcb: Provides X11 protocol library with XCB (X C Binding) support.
+    100. libx264: Provides H.264/AVC video encoder library.
+    101. libx265: Provides HEVC/H.265 video encoder library.
+    102. libxapian: Provides a library for Xapian search engine.
+    103. libxapp: Provides support libraries for Xapp applications.
+    104. libxatracker: Provides library for tracking X server graphics state.
+    105. libXau: Provides authorization protocol library for X.
+    106. libXaw7: Provides X11 Athena Widgets library version 7.
+    107. libXaw: Provides X11 Athena Widgets library.
+    108. libxcb-damage: Provides XCB extension for damage tracking.
+    109. libxcb-dri2: Provides XCB extension for Direct Rendering Infrastructure version 2.
+    110. libxcb-dri3: Provides XCB extension for Direct Rendering Infrastructure version 3.
+    111. libxcb-glx: Provides XCB extension for GLX (OpenGL extension).
+    112. libxcb-icccm: Provides XCB extension for ICCCM (Inter-Client Communication Conventions Manual).
+    113. libxcb-image: Provides XCB extension for image handling.
+    114. libxcb-keysyms: Provides XCB extension for key symbols.
+    115. libxcb-present: Provides XCB extension for presentation.
+    116. libxcb-randr: Provides XCB extension for RANDR (Resize and Rotate Extension).
+    117. libxcb-render: Provides XCB extension for rendering.
+    118. libxcb-render-util: Provides utilities for XCB rendering extension.
+    119. libxcb-res: Provides XCB extension for resource management.
+    120. libxcb-shape: Provides XCB extension for shape extension.
+    121. libxcb-shm: Provides XCB extension for shared memory.
+    122. libxcb: Provides core XCB library.
+    123. libxcb-sync: Provides XCB extension for synchronization.
+    124. libxcb-util: Provides utilities for XCB.
+    125. libxcb-xfixes: Provides XCB extension for XFixes (extension for fixing bugs).
+    126. libxcb-xinerama: Provides XCB extension for Xinerama (multi-monitor support).
+    127. libxcb-xinput: Provides XCB extension for XInput (input extension).
+    128. libxcb-xkb: Provides XCB extension for XKB (X Keyboard Extension).
+    129. libxcb-xv: Provides XCB extension for XV (Video Extension).
+    130. libXcomposite: Provides X11 extension for compositing.
+    131. libXcursor: Provides X11 library for cursor handling.
+    132. libxcvt: Provides library for converting video modes.
+    133. libXdamage: Provides X11 extension for damage tracking.
+    134. libXdmcp: Provides X11 library for Display Manager Control Protocol.
+    135. libxdo: Provides library for X automation.
+    136. libXext: Provides X11 extension library.
+    137. libXfixes: Provides X11 extension for fixing X protocol bugs.
+    138. libXfont2: Provides X11 library for font handling.
+    139. libXft: Provides X11 library for TrueType font handling.
+    140. libXinerama: Provides X11 extension for multi-monitor support.
+    141. libXi: Provides X11 extension for input devices.
+    142. libxkbcommon: Provides library for XKB (X Keyboard Extension) handling.
+    143. libxkbcommon-x11: Provides XKB (X Keyboard Extension) support for X11.
+    144. libxkbfile: Provides library for XKB (X Keyboard Extension) file handling.
+    145. libxkbregistry: Provides library for managing XKB (X Keyboard Extension) registry.
+    146. libxklavier: Provides library for X Keyboard Layout configuration.
+    147. libxml2: Provides core XML parsing library.
+    148. libxmlb: Provides library for handling XMLB (binary XML) format.
+    149. libxmlsec1-nss: Provides XML security library with NSS (Network Security Services) support.
+    150. libxmlsec1: Provides XML security library.
+    151. libXmu: Provides X11 miscellaneous utility library.
+    152. libXmuu: Provides X11 miscellaneous utility functions.
+    153. libXpm: Provides X11 library for X PixMap (XPM) format handling.
+    154. libXpresent: Provides X11 extension for presentation.
+    155. libXrandr: Provides X11 extension for RANDR (Resize and Rotate Extension).
+    156. libxreaderdocument: Provides document handling functionalities for XReader.
+    157. libxreaderview: Provides view handling functionalities for XReader.
+    158. libXrender: Provides X11 extension for rendering.
+    159. libXRes: Provides X11 extension for resource management.
+    160. libxshmfence: Provides library for managing shared memory fences.
+    161. libxslt: Provides XSLT (Extensible Stylesheet Language Transformations) library.
+    162. libXss: Provides X11 extension for session management.
+    163. libxtables: Provides library for handling iptables extensions.
+    164. libXt: Provides X11 toolkit library.
+    165. libXtst: Provides X11 extension for testing.
+    166. libxvidcore: Provides Xvid video codec library.
+    167. libXvMC: Provides X11 extension for video motion compensation.
+    168. libXvMCW: Provides X11 extension for video motion compensation with windowing.
+    169. libXv: Provides X11 extension for video handling.
+    170. libXxf86dga: Provides X11 extension for Direct Graphics Access.
+    171. libXxf86vm: Provides X11 extension for video modes.
+    172. libxxhash: Provides a fast hash library.
+    173. libyajl: Provides a library for JSON parsing.
+    174. libyaml-0: Provides YAML (YAML Ain't Markup Language) parsing library.
+    175. libyelp: Provides library for the Yelp help browser.
+    176. libz: Provides the zlib compression library.
+    177. libzfs_core: Provides core functionalities for ZFS (Zettabyte File System).
+    178. libzfs: Provides the ZFS (Zettabyte File System) library.
+    179. libzimg: Provides image processing library for resizing.
+    180. libzip: Provides a library for handling ZIP archives.
+    181. libzix-0: Provides ZIX (Zlib Index) library for indexed compression.
+    182. libzmq: Provides the ZeroMQ messaging library.
+    183. libzpool: Provides ZFS (Zettabyte File System) pool management library.
+    184. libzstd: Provides Zstandard compression library.
+    185. libzvbi-chains: Provides VBI (Vertical Blanking Interval) chain handling library.
+    186. libzvbi: Provides VBI (Vertical Blanking Interval) library.
+    187. Mcrt1: Provides the C runtime library for the first stage of execution.
+    188. ModemManager: Provides a daemon for managing mobile broadband devices.
+    1. muffin: Provides a lightweight window manager for Linux.
+    2. nautilus: Provides the GNOME file manager.
+    3. nemo: Provides the Cinnamon file manager.
+    4. nemo-preview: Provides preview functionalities for Nemo file manager.
+    5. NetworkManager: Provides a network management daemon for Linux.
+    6. openvpn: Provides a VPN (Virtual Private Network) daemon.
+    7. ossl-modules: Provides additional modules for OpenSSL.
+    8. p11-kit-proxy: Provides a proxy for the PKCS#11 module.
+    9. packagekit-backend: Provides the backend for PackageKit, a system for managing packages.
+    10. perl: Provides the Perl programming language.
+    11. perl5: Provides the Perl 5 programming language.
+    • pipewire-0: Provides a multimedia server for handling audio and video streams, intended as a replacement for PulseAudio and JACK.
+    • pix: Likely related to Pixman, a pixel-manipulation library.
+    • pkcs11: Provides a standard API for accessing cryptographic tokens such as hardware security modules (HSMs).
+    • pkgconfig: Provides a system for managing library compile and link flags.
+    • plymouth: Provides a graphical boot animation system for Linux.
+    • preloadable_libintl: Provides internationalization support for preloaded libraries.
+    • print-backends: Provides backend support for printing systems.
+    • pulseaudio: Provides a sound server for managing audio streams.
+    • qt5: Provides the Qt 5 framework for cross-platform application development.
+    • qt-default: Likely refers to default Qt libraries or configuration for Qt.
+    • rcrt1: Provides the C runtime library for the second stage of execution.
+    • rhythmbox: Provides a music player and management application for GNOME.
+    • rsyslog: Provides a robust and high-performance logging system.
+    • samba: Provides file and print services for SMB/CIFS clients.
+    • sane: Provides a library and tools for accessing scanners.
+    • sasl2: Provides Simple Authentication and Security Layer (SASL) library.
+    • Scrt1: Provides the C runtime library for the secure execution stage.
+    • security: Likely refers to various security-related libraries or configurations.
+    • spa-0: Part of the PipeWire project, provides the SPA (Simple Plugin API) for multimedia processing.
+    • speech-dispatcher: Provides a speech synthesis system for accessibility.
+    • systemd: Provides a system and service manager for Linux.
+    • tc: Provides the traffic control tool for managing network traffic.
+    • utempter: Provides support for temporary user terminal files (also mentioned earlier).
+    • vdpau: Provides Video Decode and Presentation API for Unix (VDPAU) support (also mentioned earlier).
+    • vpl: Likely related to Video Processing Library (VPL) (also mentioned earlier).
+    • webkit2gtk-4: Provides the WebKit2GTK web rendering engine for GTK (also mentioned earlier).
+    • wireplumber-0: Provides the WirePlumber session manager (also mentioned earlier).
+    • X11: Provides the core libraries and headers for the X Window System.
+    • xapps: Provides a collection of applications for the X Window System.
+    • xawtv: Provides a video application for the X Window System.
+    • xed: Provides a text editor for the Cinnamon desktop environment.
+    • xml2Conf: Likely refers to XML configuration for libraries or tools related to XML processing.
+    • xreader: Provides a document viewer application for the X Window System.
+    • xtables: Provides utilities for managing iptables extensions (also mentioned earlier).
+    • xviewer: Provides an image viewer application for the X Window System.
+    • yelp: Provides a help browser application for GNOME (also mentioned earlier).
+
+
