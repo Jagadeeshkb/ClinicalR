@@ -1,0 +1,49 @@
+The log-rank test is used to compare the survival distributions of two or more groups. The test statistic is based on the observed and expected number of events at each time point. Here’s a detailed explanation of the formula:
+
+### Log-Rank Test Formula
+
+#### Observed and Expected Counts
+1. **Observed Number of Events (O\_i)**: The number of observed events (e.g., deaths) at time \( t_i \) in group \( i \).
+2. **Expected Number of Events (E\_i)**: The number of events expected at time \( t_i \) in group \( i \), based on the number of individuals at risk and the total events observed.
+
+#### Calculation Steps
+
+1. **At Risk and Event Counts**:
+   - **\( n_{i}(t) \)**: Number of individuals at risk at time \( t \) in group \( i \).
+   - **\( O_i(t) \)**: Observed number of events in group \( i \) at time \( t \).
+   - **\( E_i(t) \)**: Expected number of events in group \( i \) at time \( t \).
+
+2. **Expected Events Calculation**:
+   - The expected number of events for group \( i \) at time \( t \) can be calculated using:
+     \[
+     E_i(t) = \frac{n_i(t)}{n(t)} \times O(t)
+     \]
+     where \( n(t) \) is the total number of individuals at risk (across all groups) at time \( t \), and \( O(t) \) is the total number of events (across all groups) at time \( t \).
+
+3. **Test Statistic Calculation**:
+   - **Observed Total Events for Group \( i \)**: \( O_i = \sum_{t} O_i(t) \)
+   - **Expected Total Events for Group \( i \)**: \( E_i = \sum_{t} E_i(t) \)
+   - **Variance Calculation**: The variance for the observed and expected events is computed as:
+     \[
+     \text{Var}_i = \sum_{t} \frac{O_i(t) \times (n_i(t) - O_i(t))}{n(t)^2}
+     \]
+
+   - **Log-Rank Test Statistic**:
+     \[
+     \text{Log-Rank Statistic} = \frac{(O_1 - E_1)^2}{\text{Var}_1}
+     \]
+     Here, \( O_1 \) and \( E_1 \) are the total observed and expected events for the group being tested (e.g., Group 1).
+
+4. **p-value Calculation**:
+   - The test statistic follows a chi-square distribution with \( k - 1 \) degrees of freedom, where \( k \) is the number of groups. For two groups, it’s a chi-square distribution with 1 degree of freedom:
+     \[
+     \text{p-value} = 1 - \text{pchisq}(\text{Log-Rank Statistic}, \text{df} = 1)
+     \]
+
+### Example of the Log-Rank Test Formula
+
+Let’s say you have two groups and you observe events at different time points. For each time point, you calculate the observed and expected events, then use the above formula to compute the log-rank statistic and p-value.
+
+### Summary
+
+The log-rank test statistic is calculated by comparing the observed number of events with the expected number of events, accounting for the variance. It essentially tests whether the survival distributions of different groups are significantly different.
