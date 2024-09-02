@@ -1,0 +1,81 @@
+Certainly! Here's a list of the formulas for the survival analysis and related statistical measures you've mentioned:
+
+1. **Survival Function (S(t))**
+   - **Formula:** \( S(t) = 1 - F(t) \)
+   - Where \( F(t) \) is the cumulative distribution function (CDF).
+
+2. **Hazard Function (λ(t))**
+   - **Formula:** \( \lambda(t) = \frac{f(t)}{S(t)} \)
+   - Where \( f(t) \) is the probability density function (PDF) and \( S(t) \) is the survival function.
+
+3. **Cumulative Hazard Function (Λ(t))**
+   - **Formula:** \( \Lambda(t) = \int_0^t \lambda(u) \, du \)
+   - Where \( \lambda(t) \) is the hazard function.
+
+4. **Probability Density Function (PDF) (f(t))**
+   - **Formula:** \( f(t) = -\frac{dS(t)}{dt} \)
+   - Where \( S(t) \) is the survival function.
+
+5. **Cumulative Distribution Function (CDF) (F(t))**
+   - **Formula:** \( F(t) = 1 - S(t) \)
+   - Where \( S(t) \) is the survival function.
+
+6. **Median Survival Time**
+   - **Formula:** The median survival time \( t_{0.5} \) is the value of \( t \) where \( S(t_{0.5}) = 0.5 \).
+
+7. **Mean Survival Time**
+   - **Formula:** \( \text{Mean Survival Time} = \int_0^\infty S(t) \, dt \)
+
+8. **Restricted Mean Survival Time (RMST)**
+   - **Formula:** \( \text{RMST}(t_0) = \int_0^{t_0} S(t) \, dt \)
+   - Where \( t_0 \) is a fixed time point.
+
+9. **Survival Rate**
+   - **Formula:** \( \text{Survival Rate} = \frac{S(t)}{S(0)} \)
+   - For \( t \) at a specific time point.
+
+10. **Kaplan-Meier Estimate**
+    - **Formula:** \( \hat{S}(t) = \prod_{i: t_i \leq t} \left( 1 - \frac{d_i}{n_i} \right) \)
+    - Where \( d_i \) is the number of events at time \( t_i \) and \( n_i \) is the number of individuals at risk just before \( t_i \).
+
+11. **Log-Rank Test**
+    - **Formula:** The test statistic for the log-rank test is given by:
+      \[
+      \text{Test Statistic} = \frac{\left( \sum_{i=1}^k O_i - E_i \right)^2}{\sum_{i=1}^k V_i}
+      \]
+      - Where \( O_i \) is the observed number of events, \( E_i \) is the expected number of events, and \( V_i \) is the variance.
+
+12. **Cox Proportional Hazards Model**
+    - **Formula:** \( \lambda(t | X) = \lambda_0(t) \exp(\beta'X) \)
+    - Where \( \lambda(t | X) \) is the hazard function given covariates \( X \), \( \lambda_0(t) \) is the baseline hazard function, and \( \beta \) are the regression coefficients.
+
+13. **Concordance Index (C-index)**
+    - **Formula:** The C-index is the proportion of all possible pairs of subjects where the subject with the higher risk score has a shorter survival time.
+    - Specifically:
+      \[
+      C = \frac{\text{Number of concordant pairs}}{\text{Number of comparable pairs}}
+      \]
+
+14. **Aalen’s Additive Model**
+    - **Formula:** \( \lambda(t | X) = \lambda_0(t) + \beta'X \)
+    - Where \( \lambda(t | X) \) is the hazard function, \( \lambda_0(t) \) is the baseline hazard, and \( \beta \) are the regression coefficients.
+
+15. **Competing Risks**
+    - **Conceptual Formula:** The cumulative incidence function (CIF) for a specific type of event in the presence of competing risks is given by:
+      \[
+      \text{CIF}_k(t) = \Pr(T \leq t, \delta = k)
+      \]
+      - Where \( \delta = k \) denotes the event of interest among competing risks.
+
+16. **Cumulative Incidence Function (CIF)**
+    - **Formula:** \( \text{CIF}_k(t) = \int_0^t \frac{f_k(u)}{S(u)} \, du \)
+    - Where \( f_k(u) \) is the cause-specific hazard function for event type \( k \), and \( S(u) \) is the survival function.
+
+17. **Time-Dependent Covariates**
+    - **Conceptual Formula:** In the Cox model with time-dependent covariates, the hazard function is adjusted to:
+      \[
+      \lambda(t | X(t)) = \lambda_0(t) \exp(\beta'X(t))
+      \]
+      - Where \( X(t) \) denotes that covariates can change over time.
+
+Feel free to ask if you need more detailed explanations or examples!
