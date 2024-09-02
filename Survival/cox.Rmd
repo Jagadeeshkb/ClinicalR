@@ -1,0 +1,45 @@
+The Cox Proportional Hazards (Cox PH) model is a popular method for analyzing survival data. The model is used to estimate the effect of explanatory variables on the hazard or risk of an event happening at a particular time. Here's a breakdown of the formula and the key components:
+
+### Cox Proportional Hazards Model Formula
+
+1. **Hazard Function**: The hazard function \( h(t) \) is the rate at which events happen at time \( t \), given that the event has not occurred before \( t \). In the Cox model, the hazard function is given by:
+   \[
+   h(t \mid X) = h_0(t) \exp(X \beta)
+   \]
+   where:
+   - \( h(t \mid X) \) is the hazard function at time \( t \) for an individual with covariates \( X \).
+   - \( h_0(t) \) is the baseline hazard function at time \( t \). This function is unspecified in the Cox model.
+   - \( \exp(X \beta) \) is the exponential of the linear predictor \( X \beta \), where \( X \) is the vector of covariates and \( \beta \) is the vector of regression coefficients.
+
+2. **Partial Likelihood**: To estimate the regression coefficients \( \beta \), the Cox model uses the partial likelihood function. The partial likelihood function is derived from the likelihood of observing the event times and is given by:
+   \[
+   L(\beta) = \prod_{i: \text{event at } t_i} \frac{\exp(X_i \beta)}{\sum_{j \in R(t_i)} \exp(X_j \beta)}
+   \]
+   where:
+   - \( i \) indexes the individuals who experienced the event at time \( t_i \).
+   - \( R(t_i) \) denotes the risk set at time \( t_i \), i.e., the set of individuals who are still at risk (i.e., they have not experienced the event or been censored) just before \( t_i \).
+
+### Key Steps in Cox PH Model Calculation
+
+1. **Risk Score Calculation**:
+   \[
+   \text{risk\_score}_i = \exp(X_i \beta)
+   \]
+   where \( X_i \) is the covariate vector for individual \( i \) and \( \beta \) is the coefficient vector.
+
+2. **Partial Likelihood Calculation**:
+   For each event time \( t_i \):
+   \[
+   \text{Likelihood}_i = \frac{\text{risk\_score}_i}{\sum_{j \in R(t_i)} \text{risk\_score}_j}
+   \]
+   Then, the log-partial likelihood is:
+   \[
+   \log L(\beta) = \sum_{i: \text{event at } t_i} \left( X_i \beta - \log \sum_{j \in R(t_i)} \exp(X_j \beta) \right)
+   \]
+
+3. **Optimization**:
+   The goal is to find the coefficients \( \beta \) that maximize the partial likelihood. This is typically done using numerical optimization methods.
+
+### Summary
+
+The Cox Proportional Hazards model provides a way to analyze survival data by modeling the hazard function as a product of a baseline hazard function and an exponential function of the covariates. The partial likelihood approach is used to estimate the coefficients, which describe the effect of covariates on the hazard rate.
