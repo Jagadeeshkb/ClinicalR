@@ -1,0 +1,84 @@
+Certainly! Here’s a detailed overview of the formulas used to calculate each pharmacokinetic (PK) statistic:
+
+### 1. **Cmax (Maximum Concentration)**
+   - **Formula**: \( \text{Cmax} = \max(C) \)
+   - **Description**: The maximum concentration observed in the plasma or serum.
+
+### 2. **Tmax (Time to Maximum Concentration)**
+   - **Formula**: \( \text{Tmax} = t \text{ where } C = \text{Cmax} \)
+   - **Description**: The time at which the maximum concentration (Cmax) is observed.
+
+### 3. **AUC (Area Under the Curve)**
+   - **Formula**: 
+     \[
+     \text{AUC} = \sum_{i=1}^{n-1} \left(\frac{t_{i+1} - t_i}{2} \times (C_i + C_{i+1}) \right)
+     \]
+   - **Description**: The area under the concentration-time curve, typically computed using the trapezoidal rule. 
+
+### 4. **t1/2 (Half-life)**
+   - **Formula**: 
+     \[
+     t_{1/2} = \frac{\ln(2)}{K_e}
+     \]
+   - **Description**: The time it takes for the concentration of the drug to decrease to half of its initial value. 
+   - **Note**: \( K_e \) (elimination rate constant) is obtained from a model fit to the concentration-time data.
+
+### 5. **CL (Clearance)**
+   - **Formula**: 
+     \[
+     \text{CL} = \frac{\text{Dose}}{\text{AUC}}
+     \]
+   - **Description**: The volume of plasma from which the drug is completely removed per unit time.
+
+### 6. **Vd (Volume of Distribution)**
+   - **Formula**: 
+     \[
+     \text{Vd} = \frac{\text{Dose}}{\text{Cmax}}
+     \]
+   - **Description**: The volume in which the drug would need to be distributed to give the same concentration as it is in plasma.
+
+### 7. **MRT (Mean Residence Time)**
+   - **Formula**: 
+     \[
+     \text{MRT} = \frac{\sum (C_i \times t_i)}{\text{AUC}}
+     \]
+   - **Description**: The average time a molecule of drug spends in the body.
+
+### 8. **Bioavailability (F)**
+   - **Formula**: 
+     \[
+     F = \frac{\text{AUC}_{\text{oral}}}{\text{AUC}_{\text{IV}}} \times \frac{\text{Dose}_{\text{IV}}}{\text{Dose}_{\text{oral}}}
+     \]
+   - **Description**: The fraction of the administered dose that reaches systemic circulation compared to an intravenous dose.
+
+### 9. **Cmin (Minimum Concentration)**
+   - **Formula**: \( \text{Cmin} = \min(C) \)
+   - **Description**: The minimum concentration observed in the plasma or serum.
+
+### 10. **Ke (Elimination Rate Constant)**
+   - **Formula**: 
+     \[
+     K_e = -\frac{\ln(C_t/C_0)}{t}
+     \]
+   - **Description**: The rate at which the drug is eliminated from the body. It is often derived from the slope of the terminal phase of the concentration-time curve.
+
+### 11. **Lag Time (Tlag)**
+   - **Formula**: \( \text{Tlag} \text{ (approximate) } = \text{Time when } C > 0 \text{ or } \text{Start of significant rise in concentration} \)
+   - **Description**: The time delay before the drug starts to significantly appear in the plasma after administration.
+
+### 12. **Fluctuation**
+   - **Formula**: 
+     \[
+     \text{Fluctuation} = \frac{\text{Cmax} - \text{Cmin}}{\text{Cmin}} \times 100\%
+     \]
+   - **Description**: The extent of variation in drug concentration during a dosing interval.
+
+### Additional Notes:
+- **t1/2** and **Ke** are usually estimated by fitting an exponential decay model to the terminal phase of the concentration-time curve.
+- **MRT** can also be computed as:
+  \[
+  \text{MRT} = \frac{ \int_{0}^{\infty} t \cdot C(t) \, dt }{ \text{AUC} }
+  \]
+  where the integral is the area under the concentration-time curve weighted by time.
+
+These formulas provide a foundational basis for calculating PK parameters. In practice, these calculations can be more complex and may require specialized software or statistical methods to handle real-world data and variability.
